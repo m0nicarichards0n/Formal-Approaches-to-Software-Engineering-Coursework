@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 4" line=" 5" >
+      <vfs_project>C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\coursework_40338729.gpr</vfs_project>
+      <vfs_file>C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\src\coursework.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 5" >
+      <vfs_project>C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\coursework_40338729.gpr</vfs_project>
+      <vfs_file>C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\src\coursework.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\coursework_40338729.gpr</vfs_file>
+    <file_marker column=" 4" line=" 5">
+      <vfs_project >C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\coursework_40338729.gpr</vfs_project>
+      <vfs_file >C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\src\coursework.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 5">
+      <vfs_project >C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\coursework_40338729.gpr</vfs_project>
+      <vfs_file >C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\src\coursework.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
