@@ -1,0 +1,284 @@
+{
+  "spark": [
+    {
+      "name": "coursework",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.Invariant",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 18
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.TakeOff",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 23
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "coursework.ads",
+      "line": 24,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__takeoff"
+  },
+  "proof": [
+    {
+      "file": "coursework.ads",
+      "line": 29,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 30,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 29,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.Invariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.Invariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "codepeer results": 4.03699988964945E-04,
+    "init_why_sections": 1.65150000248104E-03,
+    "globals/properties (advanced)": 1.29929999820888E-03,
+    "gnatwhy3.run_vcs": 0.00000000000000E+00,
+    "flow analysis": 6.72589987516403E-03,
+    "marking": 6.75400020554662E-04,
+    "translation of standard": 7.57260015234351E-03,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "globals (basic)": 5.21100009791553E-04,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.init": 2.65625000000000E-01
+  }
+}

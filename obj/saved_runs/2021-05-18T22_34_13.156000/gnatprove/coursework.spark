@@ -1,0 +1,350 @@
+{
+  "spark": [
+    {
+      "name": "coursework",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.Invariant",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 18
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.TakeOff",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 23
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "coursework.ads",
+      "line": 24,
+      "col": 27,
+      "rule": "GLOBAL_WRONG",
+      "severity": "medium",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 24,
+      "col": 47,
+      "rule": "GLOBAL_WRONG",
+      "severity": "medium",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 24,
+      "col": 35,
+      "rule": "GLOBAL_WRONG",
+      "severity": "medium",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "msg_id": 2,
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 24,
+      "col": 61,
+      "rule": "GLOBAL_WRONG",
+      "severity": "medium",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "msg_id": 3,
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 24,
+      "col": 80,
+      "rule": "GLOBAL_WRONG",
+      "severity": "medium",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "msg_id": 4,
+      "how_proved": "flow"
+    }
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__takeoff"
+  },
+  "proof": [
+    {
+      "file": "coursework.ads",
+      "line": 29,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 23
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 30,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 29,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.Invariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.Invariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.Invariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 0.00000000000000E+00,
+    "codepeer results": 5.76300022657961E-04,
+    "init_why_sections": 1.41649995930493E-03,
+    "gnatwhy3.transformations.detect_polymorphism": 0.00000000000000E+00,
+    "globals/properties (advanced)": 3.57639999128878E-03,
+    "gnatwhy3.transformations.eliminate_literal": 0.00000000000000E+00,
+    "gnatwhy3.run_vcs": 2.96875000000000E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 0.00000000000000E+00,
+    "flow analysis": 6.65730005130172E-03,
+    "gnatwhy3.transformations.simplify_formula": 0.00000000000000E+00,
+    "marking": 4.77699999464676E-04,
+    "translation of standard": 1.27205001190305E-02,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_epsilon": 0.00000000000000E+00,
+    "globals (basic)": 7.30599975213408E-04,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 1.56250000000000E-02,
+    "gnatwhy3.transformations.eliminate_inductive": 1.56250000000000E-02,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_builtin": 0.00000000000000E+00,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.init": 2.34375000000000E-01
+  }
+}

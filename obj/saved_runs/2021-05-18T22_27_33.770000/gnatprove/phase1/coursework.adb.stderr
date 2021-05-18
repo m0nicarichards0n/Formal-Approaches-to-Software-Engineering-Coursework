@@ -1,0 +1,4 @@
+coursework.ads:20:12: invalid use of subtype mark in expression or call
+coursework.ads:23:61: duplicate global item
+coursework.ads:23:94: global item must denote object, state or current instance of concurrent type
+coursework.ads:27:28: invalid use of subtype mark in expression or call

@@ -1,0 +1,5 @@
+coursework.ads:24:27: medium: "Cockpit" must be a Proof_In as it is only used in assertions (SPARK RM 6.1.4(18))[#0]
+coursework.ads:24:35: medium: "CockpitLock" must be a Proof_In as it is only used in assertions (SPARK RM 6.1.4(18))[#2]
+coursework.ads:24:47: medium: "ExternalDoors" must be a Proof_In as it is only used in assertions (SPARK RM 6.1.4(18))[#1]
+coursework.ads:24:61: medium: "ExternalDoorLocks" must be a Proof_In as it is only used in assertions (SPARK RM 6.1.4(18))[#3]
+coursework.ads:24:80: medium: "FuelLevel" must be a Proof_In as it is only used in assertions (SPARK RM 6.1.4(18))[#4]
