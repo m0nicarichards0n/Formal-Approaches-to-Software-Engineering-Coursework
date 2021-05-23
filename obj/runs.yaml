@@ -62,3 +62,222 @@
     '
   output_parser: GNATprove_Parser
   timestamp: '2021-05-23T17:45:22.648000'
+'2021-05-23T18:05:16.807000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:7:07: invalid use of subtype mark in expression or call
+
+    coursework.ads:43:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:43:43: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:43:58: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:54: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:63: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:45:32: no selector "CurrentAltitude" for type "Plane" defined at
+    line 12
+
+    coursework.ads:45:52: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:46:29: global item must denote object, state or current instance
+    of concurrent type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:05:16.807000'
+'2021-05-23T18:05:38.760000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:43:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:43:43: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:43:58: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:54: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:63: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:45:32: no selector "CurrentAltitude" for type "Plane" defined at
+    line 12
+
+    coursework.ads:45:52: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:46:29: global item must denote object, state or current instance
+    of concurrent type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:05:38.760000'
+'2021-05-23T18:06:24.854000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:43:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:43:43: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:43:58: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:54: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:44:63: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:45:32: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:45:45: global item must denote object, state or current instance
+    of concurrent type
+
+    coursework.ads:46:29: global item must denote object, state or current instance
+    of concurrent type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:06:24.854000'
+'2021-05-23T18:07:44.285000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:44:29: global item must denote object, state or current instance
+    of concurrent type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:07:44.285000'
+'2021-05-23T18:08:03.032000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:44:27: duplicate global item
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:08:03.032000'
+'2021-05-23T18:11:24.562000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:44:29: global item must denote object, state or current instance
+    of concurrent type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:11:24.562000'
+'2021-05-23T18:13:06.652000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:44:27: duplicate global item
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:13:06.652000'
+'2021-05-23T18:13:34.063000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:44:28: duplicate global item
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:13:34.063000'
+'2021-05-23T18:15:10.759000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:15:10.759000'
+'2021-05-23T18:15:59.697000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:15:59.697000'

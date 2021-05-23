@@ -1,0 +1,9 @@
+coursework.ads:43:32: global item must denote object, state or current instance of concurrent type
+coursework.ads:43:43: global item must denote object, state or current instance of concurrent type
+coursework.ads:43:58: global item must denote object, state or current instance of concurrent type
+coursework.ads:44:32: global item must denote object, state or current instance of concurrent type
+coursework.ads:44:54: global item must denote object, state or current instance of concurrent type
+coursework.ads:44:63: global item must denote object, state or current instance of concurrent type
+coursework.ads:45:32: global item must denote object, state or current instance of concurrent type
+coursework.ads:45:45: global item must denote object, state or current instance of concurrent type
+coursework.ads:46:29: global item must denote object, state or current instance of concurrent type

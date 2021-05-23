@@ -1,48 +1,51 @@
 package coursework 
 with SPARK_Mode
 is
-   type DoorPosition is (Open, Shut);
-   type LockState is (Locked, Unlocked);
-   type EngineState is (On, Off);
-   type LandingGearState is (Up, Down);
+   type OpenShut is (Open, Shut);
+   type LockedUnlocked is (Locked, Unlocked);
+   type OnOff is (On, Off);
+   type UpDown is (Up, Down);
    type FlightMode is (Stationary, UnderTow, TakingOff, NormalFlight, Landing);
-   type FuelLevel is range 1..26020;
-   type Altitude is range 1..60000;
+   type FuelLevel is range 0..26020;
+   type AltitudeRange is range 0..60000;
    
-   Cockpit : DoorPosition;
-   ExternalDoors : DoorPosition;
-   CockpitLock : LockState;
-   ExternalDoorLocks : LockState;
-   Plane : FlightMode;
-   FuelOnboard : FuelLevel;
-   Engine: EngineState;
-   CurrentAltitude : Altitude;
-   LandingGear : LandingGearState;
+   type Plane is record
+      Cockpit : OpenShut;
+      CockpitLock : LockedUnlocked;
+      ExternalDoors : OpenShut;
+      ExternalDoorLocks : LockedUnlocked;
+      Mode : FlightMode;
+      Fuel : FuelLevel;
+      Engine : OnOff;
+      Altitude : AltitudeRange;
+      LandingGear : UpDown;
+   end record;
+   
+   P1 : Plane := (Cockpit => Open, CockpitLock => Unlocked,
+                  ExternalDoors => Open, ExternalDoorLocks => Unlocked,
+                  Mode => Stationary, Fuel => 0, Engine => Off,
+                  Altitude => 0, LandingGear => Down);
    
    MINFUEL : constant := 13986;
    LOWALTITUDE : constant := 2000;
    
    function MasterInvariant return Boolean is
-     (((Cockpit = Shut and CockpitLock = Locked)
-       and (ExternalDoors = Shut and ExternalDoorLocks = Locked))
-       or (Plane = Stationary));
+     (((P1.Cockpit = Shut and P1.CockpitLock = Locked)
+       and (P1.ExternalDoors = Shut and P1.ExternalDoorLocks = Locked))
+       or (P1.Mode = Stationary));
       
    function TakeOffInvariant return Boolean is
-     (((FuelOnboard >= MINFUEL and Engine = On)
-       and (CurrentAltitude < LOWALTITUDE and LandingGear = Down))
-       or (Plane /= TakingOff));
+     (((P1.Fuel >= MINFUEL and P1.Engine = On)
+       and (P1.Altitude < LOWALTITUDE and P1.LandingGear = Down))
+       or (P1.Mode /= TakingOff));
    
    procedure TakeOff with
-     Global => (Proof_In => (Cockpit,CockpitLock,ExternalDoors,ExternalDoorLocks, 
-                             FuelOnboard, Engine, CurrentAltitude, LandingGear),
-                In_Out => Plane),
+     Global => (In_Out => P1),
      Pre => MasterInvariant and TakeOffInvariant 
-     and ((Cockpit = Shut and CockpitLock = Locked)
-     and (ExternalDoors = Shut and ExternalDoorLocks = Locked))
-     and ((FuelOnboard >= MINFUEL and Engine = On)
-     and (CurrentAltitude < LOWALTITUDE and LandingGear = Down)),
-     Post => MasterInvariant and TakeOffInvariant and (Plane = TakingOff);
- 
-   
+     and ((P1.Cockpit = Shut and P1.CockpitLock = Locked)
+     and (P1.ExternalDoors = Shut and P1.ExternalDoorLocks = Locked))
+     and ((P1.Fuel >= MINFUEL and P1.Engine = On)
+     and (P1.Altitude < LOWALTITUDE and P1.LandingGear = Down)),
+     Post => MasterInvariant and TakeOffInvariant and (P1.Mode = TakingOff);
 
 end coursework;

@@ -4,7 +4,7 @@ is
 
    procedure TakeOff is
    begin
-      Plane := TakingOff;
+      P1.Mode := TakingOff;
    end TakeOff;
    
 
