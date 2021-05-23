@@ -21,8 +21,7 @@ Total                             2    1 (50%)          .     1 (50%)           
 max steps used for successful proof: 1
 
 Analyzed 1 unit
-in unit coursework, 4 subprograms and packages out of 4 analyzed
+in unit coursework, 3 subprograms and packages out of 3 analyzed
   coursework at coursework.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  coursework.MasterInvariant at coursework.ads:25 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  coursework.TakeOff at coursework.ads:35 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  coursework.TakeOffInvariant at coursework.ads:30 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  coursework.Invariant at coursework.ads:18 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  coursework.TakeOff at coursework.ads:23 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)

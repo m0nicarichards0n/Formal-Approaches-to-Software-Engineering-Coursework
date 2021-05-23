@@ -1,112 +1,40 @@
-'2021-05-18T22:24:35.416000':
+'2021-05-22T20:35:17.512000':
   category: GNATprove
   files:
   - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
   label: Basic Prove File
   output: 'Phase 1 of 2: generation of Global contracts ...
 
-    coursework.ads:19:30: expression function must be enclosed in parentheses
+    coursework.ads:32:29: missing ")"
+
+    coursework.ads:34:07: statement not allowed in package spec
+
+    coursework.ads:35:11: statement expected
+
+    coursework.ads:36:07: reserved word "else" cannot be used as identifier
+
+    coursework.ads:38:06: declaration expected
 
     gnatprove: error during generation of Global contracts
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:24:35.416000'
-'2021-05-18T22:25:29.571000':
+  timestamp: '2021-05-22T20:35:17.512000'
+'2021-05-23T16:56:34.966000':
   category: GNATprove
   files:
   - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
   label: Basic Prove File
   output: 'Phase 1 of 2: generation of Global contracts ...
 
-    coursework.adb:7:07: invalid use of subtype mark in expression or call
-
-    coursework.ads:19:12: invalid use of subtype mark in expression or call
-
-    coursework.ads:19:34: invalid use of subtype mark in expression or call
-
-    coursework.ads:22:61: duplicate global item
-
-    coursework.ads:22:94: global item must denote object, state or current instance
-    of concurrent type
-
-    coursework.ads:23:27: global item must denote object, state or current instance
-    of concurrent type
-
-    coursework.ads:26:28: invalid use of subtype mark in expression or call
-
-    coursework.ads:27:29: invalid use of subtype mark in expression or call
+    coursework.ads:33:18: != should be /=
 
     gnatprove: error during generation of Global contracts
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:25:29.571000'
-'2021-05-18T22:27:33.770000':
-  category: GNATprove
-  files:
-  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
-  label: Basic Prove File
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    coursework.ads:20:12: invalid use of subtype mark in expression or call
-
-    coursework.ads:23:61: duplicate global item
-
-    coursework.ads:23:94: global item must denote object, state or current instance
-    of concurrent type
-
-    coursework.ads:27:28: invalid use of subtype mark in expression or call
-
-    gnatprove: error during generation of Global contracts
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:27:33.770000'
-'2021-05-18T22:32:35.231000':
-  category: GNATprove
-  files:
-  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
-  label: Basic Prove File
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    coursework.ads:24:61: duplicate global item
-
-    gnatprove: error during generation of Global contracts
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:32:35.231000'
-'2021-05-18T22:34:13.156000':
-  category: GNATprove
-  files:
-  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
-  label: Basic Prove File
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    Phase 2 of 2: flow analysis and proof ...
-
-    coursework.ads:24:27: medium: "Cockpit" must be a Proof_In as it is only used
-    in assertions (SPARK RM 6.1.4(18))[#0]
-
-    coursework.ads:24:35: medium: "CockpitLock" must be a Proof_In as it is only used
-    in assertions (SPARK RM 6.1.4(18))[#2]
-
-    coursework.ads:24:47: medium: "ExternalDoors" must be a Proof_In as it is only
-    used in assertions (SPARK RM 6.1.4(18))[#1]
-
-    coursework.ads:24:61: medium: "ExternalDoorLocks" must be a Proof_In as it is
-    only used in assertions (SPARK RM 6.1.4(18))[#3]
-
-    coursework.ads:24:80: medium: "FuelLevel" must be a Proof_In as it is only used
-    in assertions (SPARK RM 6.1.4(18))[#4]
-
-    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:34:13.156000'
-'2021-05-18T22:38:44.153000':
+  timestamp: '2021-05-23T16:56:34.966000'
+'2021-05-23T16:56:59.155000':
   category: GNATprove
   files:
   - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
@@ -119,8 +47,8 @@
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:38:44.153000'
-'2021-05-18T22:41:59.718000':
+  timestamp: '2021-05-23T16:56:59.155000'
+'2021-05-23T17:45:22.648000':
   category: GNATprove
   files:
   - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
@@ -133,18 +61,4 @@
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:41:59.718000'
-'2021-05-18T22:45:19.860000':
-  category: GNATprove
-  files:
-  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
-  label: Basic Prove File
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    Phase 2 of 2: flow analysis and proof ...
-
-    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-05-18T22:45:19.860000'
+  timestamp: '2021-05-23T17:45:22.648000'
