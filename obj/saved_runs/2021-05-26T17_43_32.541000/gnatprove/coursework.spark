@@ -1,0 +1,2010 @@
+{
+  "spark": [
+    {
+      "name": "coursework",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.MasterInvariant",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 32
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.TakeOffInvariant",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 37
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.TakeOff",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 42
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.EngineOnOff",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 51
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.SetFuel",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 56
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.OpenCockpitDoor",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 62
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.ShutCockpitDoor",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 67
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.LockCockpitDoor",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 72
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.UnlockCockpitDoor",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 77
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.IncreaseAltitude",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 82
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "coursework.BurnFuel",
+      "sloc": [
+        {
+          "file": "coursework.ads",
+          "line": 87
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "coursework.ads",
+      "line": 73,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.LockCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 57,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.SetFuel",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 56
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 68,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.ShutCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 67
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 52,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.EngineOnOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 88,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.BurnFuel",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 87
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 63,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.OpenCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 62
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 83,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.IncreaseAltitude",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 82
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 78,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.UnlockCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 77
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "coursework.ads",
+      "line": 43,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 42
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__takeoff",
+    " 2": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__engineonoff",
+    " 3": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__setfuel",
+    " 4": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__opencockpitdoor",
+    " 5": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__shutcockpitdoor",
+    " 6": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__lockcockpitdoor",
+    " 7": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__increasealtitude",
+    " 8": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__burnfuel",
+    " 9": "C:\\Users\\MonicaRichardson\\Documents\\Uni\\FASE\\Coursework\\obj\\gnatprove\\coursework__unlockcockpitdoor"
+  },
+  "proof": [
+    {
+      "file": "coursework.ads",
+      "line": 49,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.TakeOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 42
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 113,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 46,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 49,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 3,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 54,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.EngineOnOff",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 264,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 202,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 54,
+      "check_col": 14,
+      "session_dir": 2,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 60,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.SetFuel",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 56
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 27,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 92,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 60,
+      "check_col": 14,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 65,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.OpenCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 62
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 48,
+              "time": 6.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 65,
+      "check_col": 14,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 5.99999986588955E-02
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 70,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.ShutCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 67
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 48,
+              "time": 6.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 70,
+      "check_col": 14,
+      "session_dir": 5,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 5.99999986588955E-02
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 75,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.LockCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 48,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 75,
+      "check_col": 14,
+      "session_dir": 6,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "coursework.adb",
+      "line": 79,
+      "col": 37,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.IncreaseAltitude",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 82
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 109,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "coursework.adb",
+      "check_line": 79,
+      "check_col": 37,
+      "session_dir": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 85,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.IncreaseAltitude",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 82
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 87,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 92,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 85,
+      "check_col": 14,
+      "session_dir": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.adb",
+      "line": 86,
+      "col": 29,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.BurnFuel",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 87
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 109,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "coursework.adb",
+      "check_line": 86,
+      "check_col": 29,
+      "session_dir": 8,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 90,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "coursework.BurnFuel",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 87
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 59,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 92,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 90,
+      "check_col": 14,
+      "session_dir": 8,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "coursework.ads",
+      "line": 80,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "coursework.UnlockCockpitDoor",
+        "sloc": [
+          {
+            "file": "coursework.ads",
+            "line": 77
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 6.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 157,
+              "time": 6.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 360,
+              "time": 6.00000000000000E-02
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 60
+            },
+            "altergo": {
+              "result": "Unknown ()",
+              "steps": -1,
+              "time": 1.60000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "coursework.ads",
+      "check_line": 80,
+      "check_col": 14,
+      "cntexmp": {
+        "coursework.adb": {
+          "previous": {
+          },
+          "current": {
+            "69": [
+              {
+                "name": "P1",
+                "value": "(Cockpit => Shut, CockpitLock => Locked, ExternalDoors => Shut, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up)",
+                "kind": "variable"
+              }
+            ],
+            "72": [
+              {
+                "name": "P1",
+                "value": "(Cockpit => Shut, CockpitLock => Unlocked, ExternalDoors => Shut, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up)",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "coursework.ads": {
+          "previous": {
+          },
+          "current": {
+            "24": [
+              {
+                "name": "P1",
+                "value": "(Cockpit => Shut, CockpitLock => Locked, ExternalDoors => Shut, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up)",
+                "kind": "variable"
+              }
+            ],
+            "80": [
+              {
+                "name": "P1",
+                "value": "(Cockpit => Shut, CockpitLock => Unlocked, ExternalDoors => Shut, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up)",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 9,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.BurnFuel",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 87
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.OpenCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 62
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.OpenCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 62
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.BurnFuel",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 87
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.BurnFuel",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 87
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.OpenCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 62
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.ShutCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.ShutCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.ShutCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.LockCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.LockCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.LockCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.UnlockCockpitDoor",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 77
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.TakeOffInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 37
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.TakeOffInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 37
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 42
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.TakeOffInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 37
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 42
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.TakeOffInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 37
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.TakeOffInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 37
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.TakeOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 42
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.TakeOffInvariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 37
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.IncreaseAltitude",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.TakeOffInvariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 37
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.IncreaseAltitude",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.IncreaseAltitude",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.MasterInvariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 32
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.MasterInvariant",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 32
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.EngineOnOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.EngineOnOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.EngineOnOff",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "coursework.SetFuel",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 56
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "coursework.SetFuel",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 56
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "coursework.MasterInvariant",
+            "sloc": [
+              {
+                "file": "coursework.ads",
+                "line": 32
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "coursework.SetFuel",
+          "sloc": [
+            {
+              "file": "coursework.ads",
+              "line": 56
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.eliminate_algebraic": 0.00000000000000E+00,
+    "gnatwhy3.transformations.inline_trivial": 5.78125000000000E-01,
+    "codepeer results": 4.99900022987276E-04,
+    "init_why_sections": 6.95900002028793E-04,
+    "gnatwhy3.transformations.eliminate_let_term": 0.00000000000000E+00,
+    "gnatwhy3.transformations.detect_polymorphism": 0.00000000000000E+00,
+    "globals/properties (advanced)": 2.12580002844334E-02,
+    "gnatwhy3.transformations.eliminate_literal": 3.12500000000000E-02,
+    "gnatwhy3.run_vcs": 5.78125000000000E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 0.00000000000000E+00,
+    "flow analysis": 3.24794016778469E-02,
+    "gnatwhy3.transformations.simplify_formula": 3.12500000000000E-02,
+    "marking": 6.95049995556474E-03,
+    "translation of standard": 3.80369997583330E-03,
+    "gnatwhy3.transformations.eliminate_recursion": 1.56250000000000E-02,
+    "gnatwhy3.register_vcs": 6.25000000000000E-02,
+    "gnatwhy3.transformations.eliminate_epsilon": 0.00000000000000E+00,
+    "globals (basic)": 1.56196998432279E-02,
+    "gnatwhy3.schedule_vcs": 3.12500000000000E-02,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 1.56250000000000E-02,
+    "gnatwhy3.transformations.eliminate_inductive": 3.12500000000000E-02,
+    "gnatwhy3.transformations.split_premise_right": 0.00000000000000E+00,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 6.25000000000000E-02,
+    "gnatwhy3.transformations.eliminate_builtin": 1.56250000000000E-02,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.introduce_premises": 0.00000000000000E+00,
+    "gnatwhy3.init": 4.03125000000000E+00
+  }
+}

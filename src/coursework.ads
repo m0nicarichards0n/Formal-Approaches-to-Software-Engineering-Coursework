@@ -59,6 +59,30 @@ is
      and ((f > FuelCapacity'First) and (f <= FuelCapacity'Last))),
      Post => MasterInvariant and (P1.Fuel > P1.Fuel'Old);
    
+   procedure OpenCockpitDoor with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary) 
+     and ((P1.Cockpit = Shut) and (P1.CockpitLock = Unlocked)),
+     Post => MasterInvariant and (P1.Cockpit = Open);
+   
+   procedure ShutCockpitDoor with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary)
+     and ((P1.Cockpit = Open) and (P1.CockpitLock = Unlocked)),
+     Post => MasterInvariant and (P1.Cockpit = Shut);
+   
+   procedure LockCockpitDoor with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary) 
+     and ((P1.CockpitLock = Unlocked) and (P1.Cockpit = Shut)),
+     Post => MasterInvariant and (P1.CockpitLock = Locked);
+   
+   procedure UnlockCockpitDoor with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary) 
+     and ((P1.CockpitLock = Locked) and (P1.Cockpit = Shut)),
+     Post => MasterInvariant and (P1.CockpitLock = Unlocked);
+   
    procedure IncreaseAltitude with
      Global => (In_Out => P1),
      Pre => MasterInvariant and (P1.Altitude < AltitudeRange'Last),

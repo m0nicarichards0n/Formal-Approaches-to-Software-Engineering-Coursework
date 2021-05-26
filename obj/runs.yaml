@@ -2657,3 +2657,157 @@
     '
   output_parser: GNATprove_Parser
   timestamp: '2021-05-26T16:43:15.516000'
+'2021-05-26T17:07:28.804000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:48:04: "end if;" expected for "if" at line 42
+
+    coursework.adb:50:04: declarations must come before "begin"
+
+    coursework.adb:64:01: "end OpenShutCockpit;" expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:07:28.804000'
+'2021-05-26T17:07:51.284000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:49:04: "end OpenShutCockpit;" expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:07:51.284000'
+'2021-05-26T17:11:13.040000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.ads:65:34: medium: postcondition might fail, cannot prove P1.Cockpit
+    /= P1.Cockpit''old (e.g. when P1 = (Cockpit => Shut, CockpitLock => Locked, ExternalDoors
+    => Shut, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 0, LandingGear => Up))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:11:13.040000'
+'2021-05-26T17:24:26.146000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:44:21: "=" should be ":="
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:24:26.146000'
+'2021-05-26T17:24:41.910000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:24:41.910000'
+'2021-05-26T17:30:37.798000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:52:22: "CloseCockpit" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:30:37.798000'
+'2021-05-26T17:31:18.494000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:31:18.494000'
+'2021-05-26T17:43:32.541000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.ads:80:14: medium: postcondition might fail, cannot prove (MasterInvariant)
+    (e.g. when P1 = (Cockpit => Shut, CockpitLock => Unlocked, ExternalDoors => Shut,
+    ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude
+    => 0, LandingGear => Up))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:43:32.541000'
+'2021-05-26T17:49:10.900000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:49:10.900000'
+'2021-05-26T17:54:21.948000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T17:54:21.948000'

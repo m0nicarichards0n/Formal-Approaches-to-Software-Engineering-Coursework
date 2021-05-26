@@ -28,6 +28,10 @@ procedure Main is
          Put_Line("(1) Take off");
          Put_Line("(2) Switch engine ON/OFF");
          Put_Line("(3) Request fuel");
+         Put_Line("(4) OPEN Cockpit door");
+         Put_Line("(5) SHUT Cockpit door");
+         Put_Line("(6) LOCK Cockpit door");
+         Put_Line("(7) UNLOCK Cockpit door");
 
          Get_Line(Str, Last);
          case Str(1) is
@@ -46,6 +50,11 @@ procedure Main is
                when '4' => SetFuel(FuelCapacity'Last);
                when others => exit;
             end case;
+         when '4' => OpenCockpitDoor;
+         when '5' => ShutCockpitDoor;
+         when '6' => LockCockpitDoor;
+         when '7' => UnlockCockpitDoor;
+
          when others => abort Climb; abort EngineRunning; exit;
          end case;
       end loop;

@@ -1,0 +1,38 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   CodePeer     Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------
+Data Dependencies                 9          9          .           .           .          .
+Flow Dependencies                 .          .          .           .           .          .
+Initialization                    .          .          .           .           .          .
+Non-Aliasing                      .          .          .           .           .          .
+Run-time Checks                   2          .          .    2 (CVC4)           .          .
+Assertions                        .          .          .           .           .          .
+Functional Contracts              9          .          .    8 (CVC4)           .          1
+LSP Verification                  .          .          .           .           .          .
+Termination                       .          .          .           .           .          .
+Concurrency                       .          .          .           .           .          .
+--------------------------------------------------------------------------------------------
+Total                            20    9 (45%)          .    10 (50%)           .     1 (5%)
+
+
+max steps used for successful proof: 1
+
+Analyzed 2 units
+in unit coursework, 12 subprograms and packages out of 12 analyzed
+  coursework at coursework.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  coursework.BurnFuel at coursework.ads:87 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  coursework.EngineOnOff at coursework.ads:51 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  coursework.IncreaseAltitude at coursework.ads:82 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  coursework.LockCockpitDoor at coursework.ads:72 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  coursework.MasterInvariant at coursework.ads:32 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  coursework.OpenCockpitDoor at coursework.ads:62 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  coursework.SetFuel at coursework.ads:56 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  coursework.ShutCockpitDoor at coursework.ads:67 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  coursework.TakeOff at coursework.ads:42 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  coursework.TakeOffInvariant at coursework.ads:37 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  coursework.UnlockCockpitDoor at coursework.ads:77 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 0 checks out of 1 proved
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:4 skipped

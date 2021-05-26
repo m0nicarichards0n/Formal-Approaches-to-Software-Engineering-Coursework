@@ -1,0 +1,3 @@
+coursework.adb:48:04: "end if;" expected for "if" at line 42
+coursework.adb:50:04: declarations must come before "begin"
+coursework.adb:64:01: "end OpenShutCockpit;" expected

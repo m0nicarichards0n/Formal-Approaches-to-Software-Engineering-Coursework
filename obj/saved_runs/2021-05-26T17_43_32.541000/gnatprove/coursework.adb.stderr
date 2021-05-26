@@ -1,0 +1,1 @@
+coursework.ads:80:14: medium: postcondition might fail, cannot prove (MasterInvariant) (e.g. when P1 = (Cockpit => Shut, CockpitLock => Unlocked, ExternalDoors => Shut, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up))[#0]

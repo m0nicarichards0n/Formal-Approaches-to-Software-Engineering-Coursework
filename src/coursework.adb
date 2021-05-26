@@ -37,6 +37,42 @@ is
       end if;
    end SetFuel;
    
+   procedure OpenCockpitDoor is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary)
+          and ((P1.Cockpit = Shut) and (P1.CockpitLock = Unlocked))) 
+      then
+         P1.Cockpit := Open;
+      end if;
+   end OpenCockpitDoor;
+   
+   procedure ShutCockpitDoor is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary) 
+          and ((P1.Cockpit = Open) and (P1.CockpitLock = Unlocked))) 
+      then
+         P1.Cockpit := Shut;
+      end if;
+   end ShutCockpitDoor;
+   
+   procedure LockCockpitDoor is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary) 
+          and ((P1.CockpitLock = Unlocked) and (P1.Cockpit = Shut)))
+      then
+         P1.CockpitLock := Locked;
+      end if;
+   end LockCockpitDoor;
+   
+   procedure UnlockCockpitDoor is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary) 
+          and ((P1.CockpitLock = Locked) and (P1.Cockpit = Shut)))
+      then
+         P1.CockpitLock := Unlocked;
+      end if;
+   end UnlockCockpitDoor;
+   
    procedure IncreaseAltitude is
    begin
       if (MasterInvariant and P1.Altitude < AltitudeRange'Last) then
