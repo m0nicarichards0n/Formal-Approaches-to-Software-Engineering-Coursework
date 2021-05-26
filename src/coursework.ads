@@ -6,8 +6,8 @@ is
    type OnOff is (On, Off);
    type UpDown is (Up, Down);
    type FlightMode is (Stationary, UnderTow, TakingOff, NormalFlight, Landing);
-   type FuelLevel is range 0..26020;
-   type AltitudeRange is range 0..60000;
+   subtype FuelCapacity is Integer range 0..26020;
+   subtype AltitudeRange is Integer range 0..60000;
    
    type Plane is record
       Cockpit : OpenShut;
@@ -15,7 +15,7 @@ is
       ExternalDoors : OpenShut;
       ExternalDoorLocks : LockedUnlocked;
       Mode : FlightMode;
-      Fuel : FuelLevel;
+      Fuel : FuelCapacity;
       Engine : OnOff;
       Altitude : AltitudeRange;
       LandingGear : UpDown;
@@ -23,10 +23,10 @@ is
    
    P1 : Plane := (Cockpit => Open, CockpitLock => Unlocked,
                   ExternalDoors => Open, ExternalDoorLocks => Unlocked,
-                  Mode => Stationary, Fuel => 0, Engine => Off,
-                  Altitude => 0, LandingGear => Down);
+                  Mode => Stationary, Fuel => FuelCapacity'First, Engine => Off,
+                  Altitude => AltitudeRange'First, LandingGear => Down);
    
-   MINFUEL : constant := 13986;
+   MINFUEL : constant := 13010;
    LOWALTITUDE : constant := 2000;
    
    function MasterInvariant return Boolean is
@@ -47,5 +47,15 @@ is
      and ((P1.Fuel >= MINFUEL and P1.Engine = On)
      and (P1.Altitude < LOWALTITUDE and P1.LandingGear = Down)),
      Post => MasterInvariant and TakeOffInvariant and (P1.Mode = TakingOff);
+   
+   procedure IncreaseAltitude with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Altitude < AltitudeRange'Last),
+     Post => MasterInvariant and (P1.Altitude = P1.Altitude'Old + 1);
+   
+   procedure BurnFuel with
+     Global => (In_out => P1),
+     Pre => MasterInvariant and (P1.Fuel > FuelCapacity'First),
+     Post => MasterInvariant and (P1.Fuel = P1.Fuel'Old - 1);
 
 end coursework;

@@ -1,0 +1,2 @@
+coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"

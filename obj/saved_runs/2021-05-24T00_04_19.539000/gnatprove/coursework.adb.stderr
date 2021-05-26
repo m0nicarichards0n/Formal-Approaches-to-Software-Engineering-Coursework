@@ -1,0 +1,4 @@
+coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel = P1.Fuel'Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 1, LandingGear => Up))[#2]

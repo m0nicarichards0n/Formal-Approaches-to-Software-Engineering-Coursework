@@ -1,0 +1,4 @@
+coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+coursework.adb:21:34: medium: range check might fail (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors => Open, ExternalDoorLocks => Locked, Mode => Stationary, Fuel => 0, Engine => On, Altitude => AltitudeRange'Last, LandingGear => Up)) [possible explanation: subprogram at line 19 should mention P1 in a precondition][#0]
+coursework.adb:25:04: warning: analyzing unreferenced procedure "BurnFuel"
+coursework.adb:27:26: medium: range check might fail [possible explanation: subprogram at line 25 should mention P1 in a precondition][#1]

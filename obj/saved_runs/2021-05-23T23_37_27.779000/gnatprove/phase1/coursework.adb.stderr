@@ -1,0 +1,3 @@
+coursework.ads:56:42: invalid operand types for operator "<"
+coursework.ads:56:42: left operand has type "FuelCapacity" defined at line 9
+coursework.ads:56:42: right operand has type "AltitudeRange" defined at line 10

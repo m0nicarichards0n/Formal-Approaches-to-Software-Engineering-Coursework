@@ -281,3 +281,990 @@
     '
   output_parser: GNATprove_Parser
   timestamp: '2021-05-23T18:15:59.697000'
+'2021-05-23T18:48:50.338000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:48:50.338000'
+'2021-05-23T18:55:34.221000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    main.adb:4:11: warning: SPARK_Mode not applied to this compilation unit
+
+    main.adb:4:11: warning: only enclosed declarations with SPARK_Mode will be analyzed
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:55:34.221000'
+'2021-05-23T18:56:55.644000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T18:56:55.644000'
+'2021-05-23T22:42:11.028000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:35:16: missing operand
+
+    main.adb:43:55: binary operator expected
+
+    main.adb:44:63: binary operator expected
+
+    main.adb:47:16: missing operand
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:42:11.028000'
+'2021-05-23T22:42:44.934000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:35:16: missing operand
+
+    main.adb:47:16: missing operand
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:42:44.934000'
+'2021-05-23T22:43:00.704000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:10:04: missing body for "RequestFuel"
+
+    main.adb:24:13: missing case values: character''val(0) .. ''0''
+
+    main.adb:24:13: missing case values: ''3'' .. character''val(255)
+
+    main.adb:24:18: subtype of expression is not static, alternatives must cover base
+    type
+
+    main.adb:25:28: procedure or entry name expected
+
+    main.adb:26:37: procedure or entry name expected
+
+    main.adb:39:35: invalid operand types for operator "&"
+
+    main.adb:40:33: invalid operand types for operator "&"
+
+    main.adb:41:27: invalid operand types for operator "&"
+
+    main.adb:42:31: invalid operand types for operator "&"
+
+    main.adb:43:33: invalid operand types for operator "&"
+
+    main.adb:43:56: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:43:56: use clause would make operation legal
+
+    main.adb:44:35: invalid operand types for operator "&"
+
+    main.adb:44:64: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:44:64: use clause would make operation legal
+
+    main.adb:45:29: invalid operand types for operator "&"
+
+    main.adb:54:15: "IncreaseAltitude" is undefined
+
+    main.adb:64:15: "BurnFuel" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:43:00.704000'
+'2021-05-23T22:43:14.569000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:23:13: missing case values: character''val(0) .. ''0''
+
+    main.adb:23:13: missing case values: ''3'' .. character''val(255)
+
+    main.adb:23:18: subtype of expression is not static, alternatives must cover base
+    type
+
+    main.adb:24:28: procedure or entry name expected
+
+    main.adb:25:37: procedure or entry name expected
+
+    main.adb:38:35: invalid operand types for operator "&"
+
+    main.adb:39:33: invalid operand types for operator "&"
+
+    main.adb:40:27: invalid operand types for operator "&"
+
+    main.adb:41:31: invalid operand types for operator "&"
+
+    main.adb:42:33: invalid operand types for operator "&"
+
+    main.adb:42:56: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:42:56: use clause would make operation legal
+
+    main.adb:43:35: invalid operand types for operator "&"
+
+    main.adb:43:64: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:43:64: use clause would make operation legal
+
+    main.adb:44:29: invalid operand types for operator "&"
+
+    main.adb:53:15: "IncreaseAltitude" is undefined
+
+    main.adb:63:15: "BurnFuel" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:43:14.569000'
+'2021-05-23T22:43:34.105000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:23:13: missing case values: character''val(0) .. ''0''
+
+    main.adb:23:13: missing case values: ''3'' .. character''val(255)
+
+    main.adb:23:18: subtype of expression is not static, alternatives must cover base
+    type
+
+    main.adb:24:28: procedure or entry name expected
+
+    main.adb:25:37: procedure or entry name expected
+
+    main.adb:38:35: invalid operand types for operator "&"
+
+    main.adb:39:33: invalid operand types for operator "&"
+
+    main.adb:40:27: invalid operand types for operator "&"
+
+    main.adb:41:31: invalid operand types for operator "&"
+
+    main.adb:42:33: invalid operand types for operator "&"
+
+    main.adb:42:56: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:42:56: use clause would make operation legal
+
+    main.adb:43:35: invalid operand types for operator "&"
+
+    main.adb:43:64: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:43:64: use clause would make operation legal
+
+    main.adb:44:29: invalid operand types for operator "&"
+
+    main.adb:53:15: "IncreaseAltitude" is undefined
+
+    main.adb:63:15: "BurnFuel" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:43:34.105000'
+'2021-05-23T22:43:58.851000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:20:07: "Put_Line" is undefined (more references follow)
+
+    coursework.adb:20:07: possible missing "with Ada.Text_IO; use Ada.Text_IO"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:43:58.851000'
+'2021-05-23T22:46:03.350000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+
+    coursework.adb:21:34: medium: range check might fail (e.g. when P1 = (Cockpit
+    => Open, CockpitLock => Locked, ExternalDoors => Open, ExternalDoorLocks => Locked,
+    Mode => Stationary, Fuel => 0, Engine => On, Altitude => AltitudeRange''Last,
+    LandingGear => Up)) [possible explanation: subprogram at line 19 should mention
+    P1 in a precondition][#0]
+
+    coursework.adb:25:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.adb:27:26: medium: range check might fail [possible explanation: subprogram
+    at line 25 should mention P1 in a precondition][#1]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:46:03.350000'
+'2021-05-23T22:47:45.409000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:21:25: prefix of "last" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:47:45.409000'
+'2021-05-23T22:48:40.958000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+
+    coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.adb:29:26: medium: range check might fail [possible explanation: subprogram
+    at line 27 should mention P1 in a precondition][#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:48:40.958000'
+'2021-05-23T22:50:08.661000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+
+    coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.adb:30:29: medium: range check might fail [possible explanation: subprogram
+    at line 27 should mention P1 in a precondition][#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:50:08.661000'
+'2021-05-23T22:50:33.989000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+
+    coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:50:33.989000'
+'2021-05-23T22:51:02.763000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:23:13: missing case values: character''val(0) .. ''0''
+
+    main.adb:23:13: missing case values: ''3'' .. character''val(255)
+
+    main.adb:23:18: subtype of expression is not static, alternatives must cover base
+    type
+
+    main.adb:24:28: procedure or entry name expected
+
+    main.adb:25:37: procedure or entry name expected
+
+    main.adb:38:35: invalid operand types for operator "&"
+
+    main.adb:39:33: invalid operand types for operator "&"
+
+    main.adb:40:27: invalid operand types for operator "&"
+
+    main.adb:41:31: invalid operand types for operator "&"
+
+    main.adb:42:33: invalid operand types for operator "&"
+
+    main.adb:42:56: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:42:56: use clause would make operation legal
+
+    main.adb:43:35: invalid operand types for operator "&"
+
+    main.adb:43:64: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    main.adb:43:64: use clause would make operation legal
+
+    main.adb:44:29: invalid operand types for operator "&"
+
+    main.adb:53:15: "IncreaseAltitude" is undefined
+
+    main.adb:63:15: "BurnFuel" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:51:02.763000'
+'2021-05-23T22:53:44.492000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:19:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+
+    coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T22:53:44.492000'
+'2021-05-23T23:00:01.478000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:13:36: invalid operand types for operator "&"
+
+    coursework.adb:14:33: invalid operand types for operator "&"
+
+    coursework.adb:15:27: invalid operand types for operator "&"
+
+    coursework.adb:16:31: invalid operand types for operator "&"
+
+    coursework.adb:17:33: invalid operand types for operator "&"
+
+    coursework.adb:17:56: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    coursework.adb:17:56: add with_clause and use_clause for "System"
+
+    coursework.adb:18:35: invalid operand types for operator "&"
+
+    coursework.adb:18:64: operator for type "Standard.Wide_Wide_String" is not directly
+    visible
+
+    coursework.adb:18:64: add with_clause and use_clause for "System"
+
+    coursework.adb:19:29: invalid operand types for operator "&"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T23:00:01.478000'
+'2021-05-23T23:02:37.612000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:7:04: warning: analyzing unreferenced procedure "StatusReport"
+
+    coursework.adb:36:04: warning: analyzing unreferenced procedure "IncreaseAltitude"
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T23:02:37.612000'
+'2021-05-23T23:02:50.540000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:23:28: "StatusReport" is undefined
+
+    main.adb:36:15: "IncreaseAltitude" is undefined
+
+    main.adb:46:15: "BurnFuel" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T23:02:50.540000'
+'2021-05-23T23:37:27.779000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:56:42: invalid operand types for operator "<"
+
+    coursework.ads:56:42: left operand has type "FuelCapacity" defined at line 9
+
+    coursework.ads:56:42: right operand has type "AltitudeRange" defined at line 10
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T23:37:27.779000'
+'2021-05-23T23:53:59.299000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:9:24: missing "new"
+
+    coursework.ads:10:25: missing "new"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T23:53:59.299000'
+'2021-05-23T23:59:58.646000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-23T23:59:58.646000'
+'2021-05-24T00:02:15.016000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:02:15.016000'
+'2021-05-24T00:03:19.599000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:1:24: missing "is"
+
+    coursework.adb:2:01: "with" can only appear in context clause
+
+    coursework.adb:3:16: missing ";"
+
+    coursework.adb:4:01: declaration expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:03:19.599000'
+'2021-05-24T00:04:19.539000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:04:19.539000'
+'2021-05-24T00:07:54.233000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:07:54.233000'
+'2021-05-24T00:09:59.125000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:09:59.125000'
+'2021-05-24T00:10:39.120000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:38:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:42:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:10:39.120000'
+'2021-05-24T00:12:01.806000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T00:12:01.806000'
+'2021-05-24T16:47:54.146000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:9:07: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "StatusReport" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:40:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:44:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:57:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#2]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T16:47:54.146000'
+'2021-05-24T16:54:06.345000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:23:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:54:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old + 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#1]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T16:54:06.345000'
+'2021-05-24T17:09:24.226000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:23:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:27:04: warning: analyzing unreferenced procedure "BurnFuel"
+
+    coursework.ads:54:34: medium: postcondition might fail, cannot prove P1.Fuel =
+    P1.Fuel''Old - 1 (e.g. when P1 = (Cockpit => Open, CockpitLock => Locked, ExternalDoors
+    => Open, ExternalDoorLocks => Locked, Mode => UnderTow, Fuel => 0, Engine => On,
+    Altitude => 1, LandingGear => Up))[#1]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:09:24.226000'
+'2021-05-24T17:16:44.133000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:23:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:31:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "BurnFuel" (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:16:44.133000'
+'2021-05-24T17:18:43.831000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:24:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:32:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "BurnFuel" (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:18:43.831000'
+'2021-05-24T17:19:27.204000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:24:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:32:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "BurnFuel" (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:19:27.204000'
+'2021-05-24T17:22:47.115000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:24:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#0]
+
+    coursework.adb:32:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "BurnFuel" (SPARK RM 6.1.4(14))[#1]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:22:47.115000'
+'2021-05-24T17:31:28.251000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:34:31: missing ";"
+
+    main.adb:44:23: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:31:28.251000'
+'2021-05-24T17:31:44.903000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:24:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#1]
+
+    coursework.adb:32:10: high: "Text_IO.File_System" must be listed in the Global
+    aspect of "BurnFuel" (SPARK RM 6.1.4(14))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:31:44.903000'
+'2021-05-24T17:32:43.026000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:32:43.026000'
+'2021-05-24T17:49:28.910000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:49:28.910000'
+'2021-05-24T17:53:42.311000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-24T17:53:42.311000'
+'2021-05-26T12:27:53.491000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T12:27:53.491000'

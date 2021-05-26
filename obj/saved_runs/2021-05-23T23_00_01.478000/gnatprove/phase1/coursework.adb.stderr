@@ -1,0 +1,11 @@
+coursework.adb:13:36: invalid operand types for operator "&"
+coursework.adb:14:33: invalid operand types for operator "&"
+coursework.adb:15:27: invalid operand types for operator "&"
+coursework.adb:16:31: invalid operand types for operator "&"
+coursework.adb:17:33: invalid operand types for operator "&"
+coursework.adb:17:56: operator for type "Standard.Wide_Wide_String" is not directly visible
+coursework.adb:17:56: add with_clause and use_clause for "System"
+coursework.adb:18:35: invalid operand types for operator "&"
+coursework.adb:18:64: operator for type "Standard.Wide_Wide_String" is not directly visible
+coursework.adb:18:64: add with_clause and use_clause for "System"
+coursework.adb:19:29: invalid operand types for operator "&"

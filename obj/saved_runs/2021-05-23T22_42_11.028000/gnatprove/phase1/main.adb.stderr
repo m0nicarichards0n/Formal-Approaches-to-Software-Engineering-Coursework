@@ -1,0 +1,4 @@
+main.adb:35:16: missing operand
+main.adb:43:55: binary operator expected
+main.adb:44:63: binary operator expected
+main.adb:47:16: missing operand

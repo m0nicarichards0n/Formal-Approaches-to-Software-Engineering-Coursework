@@ -1,0 +1,2 @@
+coursework.adb:24:10: high: "Text_IO.File_System" must be listed in the Global aspect of "IncreaseAltitude" (SPARK RM 6.1.4(14))[#0]
+coursework.adb:32:10: high: "Text_IO.File_System" must be listed in the Global aspect of "BurnFuel" (SPARK RM 6.1.4(14))[#1]

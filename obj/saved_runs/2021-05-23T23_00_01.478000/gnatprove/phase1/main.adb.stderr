@@ -1,0 +1,18 @@
+main.adb:23:13: missing case values: character'val(0) .. '0'
+main.adb:23:13: missing case values: '3' .. character'val(255)
+main.adb:23:18: subtype of expression is not static, alternatives must cover base type
+main.adb:24:28: procedure or entry name expected
+main.adb:25:37: procedure or entry name expected
+main.adb:38:35: invalid operand types for operator "&"
+main.adb:39:33: invalid operand types for operator "&"
+main.adb:40:27: invalid operand types for operator "&"
+main.adb:41:31: invalid operand types for operator "&"
+main.adb:42:33: invalid operand types for operator "&"
+main.adb:42:56: operator for type "Standard.Wide_Wide_String" is not directly visible
+main.adb:42:56: use clause would make operation legal
+main.adb:43:35: invalid operand types for operator "&"
+main.adb:43:64: operator for type "Standard.Wide_Wide_String" is not directly visible
+main.adb:43:64: use clause would make operation legal
+main.adb:44:29: invalid operand types for operator "&"
+main.adb:53:15: "IncreaseAltitude" is undefined
+main.adb:63:15: "BurnFuel" is undefined

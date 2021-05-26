@@ -1,0 +1,2 @@
+coursework.adb:20:07: "Put_Line" is undefined (more references follow)
+coursework.adb:20:07: possible missing "with Ada.Text_IO; use Ada.Text_IO"

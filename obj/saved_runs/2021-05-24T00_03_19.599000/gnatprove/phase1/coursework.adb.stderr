@@ -1,0 +1,4 @@
+coursework.adb:1:24: missing "is"
+coursework.adb:2:01: "with" can only appear in context clause
+coursework.adb:3:16: missing ";"
+coursework.adb:4:01: declaration expected
