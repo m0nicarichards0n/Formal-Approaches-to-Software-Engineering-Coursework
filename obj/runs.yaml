@@ -1268,3 +1268,1392 @@
     '
   output_parser: GNATprove_Parser
   timestamp: '2021-05-26T12:27:53.491000'
+'2021-05-26T12:53:04.519000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T12:53:04.519000'
+'2021-05-26T12:55:57.845000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:53:44: prefix of "first" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T12:55:57.845000'
+'2021-05-26T12:56:27.473000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:22:43: prefix of "first" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T12:56:27.473000'
+'2021-05-26T12:56:43.704000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T12:56:43.704000'
+'2021-05-26T13:02:09.338000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:02:09.338000'
+'2021-05-26T13:14:28.925000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:38:10: procedure or entry name expected
+
+    main.adb:67:07: "ClearScreen" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:14:28.925000'
+'2021-05-26T13:15:14.278000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:38:10: procedure or entry name expected
+
+    main.adb:67:07: "ClearScreen" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:15:14.278000'
+'2021-05-26T13:15:53.061000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:34:31: procedure or entry name expected
+
+    main.adb:35:35: procedure or entry name expected
+
+    main.adb:66:07: "ClearScreen" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:15:53.061000'
+'2021-05-26T13:16:50.365000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:34:31: procedure or entry name expected
+
+    main.adb:35:35: procedure or entry name expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:16:50.365000'
+'2021-05-26T13:17:42.284000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:07: procedure or entry name expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:17:42.284000'
+'2021-05-26T13:18:10.018000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:47:24: loop or block statement must follow label
+
+    coursework.adb:48:23: loop or block statement must follow label
+
+    coursework.adb:49:23: loop or block statement must follow label
+
+    coursework.adb:51:27: loop or block statement must follow label
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:18:10.018000'
+'2021-05-26T13:20:01.926000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.adb:47:24: loop or block statement must follow label
+
+    coursework.adb:48:23: loop or block statement must follow label
+
+    coursework.adb:49:23: loop or block statement must follow label
+
+    coursework.adb:51:27: loop or block statement must follow label
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:20:01.926000'
+'2021-05-26T13:37:41.713000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:60:48: attribute "old" can only appear in postcondition
+
+    coursework.ads:60:59: ";" should be ","
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:37:41.713000'
+'2021-05-26T13:39:18.394000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.ads:56:23: warning: "f" is not modified, could be IN[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:39:18.394000'
+'2021-05-26T13:48:07.917000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:48:07.917000'
+'2021-05-26T13:56:41.946000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T13:56:41.946000'
+'2021-05-26T14:19:37.932000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: cannot use call to function "Get_Line" as a statement
+
+    main.adb:39:13: return value of a function call cannot be ignored
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:19:37.932000'
+'2021-05-26T14:21:49.633000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:21:49.633000'
+'2021-05-26T14:22:38.711000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:13: no candidate interpretations match the actuals:
+
+    main.adb:40:13: too many arguments in call to "Get_Line"
+
+    main.adb:40:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:40:22: expected type "Standard.String"
+
+    main.adb:40:22: found type "Standard.Integer"
+
+    main.adb:40:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:22:38.711000'
+'2021-05-26T14:23:47.561000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:30: missing operand
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:23:47.561000'
+'2021-05-26T14:28:18.852000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:20: expected type "Standard.Integer"
+
+    main.adb:40:20: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:28:18.852000'
+'2021-05-26T14:28:58.708000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:7:22: incorrect constraint for this kind of type
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    main.adb:40:20: expected an array type
+
+    main.adb:40:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:28:58.708000'
+'2021-05-26T14:29:37.432000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    main.adb:40:20: expected an array type
+
+    main.adb:40:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:29:37.432000'
+'2021-05-26T14:30:27.348000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:20: expected type "Standard.Integer"
+
+    main.adb:40:20: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:30:27.348000'
+'2021-05-26T14:33:24.116000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:35: ":=" should be "=>"
+
+    main.adb:41:38: prefix of "Value" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:33:24.116000'
+'2021-05-26T14:34:19.349000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:13: missing argument for parameter "f" in call to "Fuelup" declared
+    at coursework.ads:56
+
+    main.adb:41:35: ":=" should be "=>"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:34:19.349000'
+'2021-05-26T14:34:42.789000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:13: missing argument for parameter "f" in call to "Fuelup" declared
+    at coursework.ads:56
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:34:42.789000'
+'2021-05-26T14:45:44.001000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:7:22: incorrect constraint for this kind of type
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    main.adb:40:20: expected an array type
+
+    main.adb:40:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:45:44.001000'
+'2021-05-26T14:46:13.209000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:7:23: "is" should be ":="
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    main.adb:40:20: expected an array type
+
+    main.adb:40:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:46:13.209000'
+'2021-05-26T14:46:36.670000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:7:25: missing operand
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:46:36.670000'
+'2021-05-26T14:47:08.117000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    main.adb:40:20: expected an array type
+
+    main.adb:40:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:47:08.117000'
+'2021-05-26T14:47:41.221000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: cannot use call to function "Get_Line" as a statement
+
+    main.adb:39:13: return value of a function call cannot be ignored
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:47:41.221000'
+'2021-05-26T14:47:59.959000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: too many arguments in call to "Get_Line"
+
+    main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:39:22: expected type "Standard.String"
+
+    main.adb:39:22: found type "Standard.Integer"
+
+    main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481
+
+    main.adb:39:33: prefix of "Last" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:47:59.959000'
+'2021-05-26T14:51:10.849000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: missing argument for parameter "Item" in call to "Get" declared
+    at a-textio.ads:451
+
+    main.adb:39:13: missing argument for parameter "Item" in call to "Get" declared
+    at a-textio.ads:378
+
+    main.adb:39:17: expected type "Standard.String"
+
+    main.adb:39:17: found type "Standard.Integer"
+
+    main.adb:39:17:   ==> in call to "Get" at a-textio.ads:454
+
+    main.adb:39:17:   ==> in call to "Get" at a-textio.ads:381
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:51:10.849000'
+'2021-05-26T14:51:53.284000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: no candidate interpretations match the actuals:
+
+    main.adb:39:13: missing argument for parameter "Item" in call to "Get" declared
+    at a-textio.ads:451
+
+    main.adb:39:13: missing argument for parameter "Item" in call to "Get" declared
+    at a-textio.ads:378
+
+    main.adb:39:17: expected type "Standard.String"
+
+    main.adb:39:17: found type "Standard.Integer"
+
+    main.adb:39:17:   ==> in call to "Get" at a-textio.ads:454
+
+    main.adb:39:17:   ==> in call to "Get" at a-textio.ads:381
+
+    main.adb:40:29: expected type "Standard.Integer"
+
+    main.adb:40:29: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:51:53.284000'
+'2021-05-26T14:52:39.870000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: "Integer_Text_IO" is undefined
+
+    main.adb:40:29: expected type "Standard.Integer"
+
+    main.adb:40:29: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:52:39.870000'
+'2021-05-26T14:53:03.255000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:13: missing "with Ada.Integer_Text_IO;"
+
+    main.adb:40:29: expected type "Standard.Integer"
+
+    main.adb:40:29: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:53:03.255000'
+'2021-05-26T14:53:48.178000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:29: expected type "Standard.Integer"
+
+    main.adb:41:29: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:53:48.178000'
+'2021-05-26T14:54:19.555000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T14:54:19.555000'
+'2021-05-26T15:07:44.229000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:07:44.229000'
+'2021-05-26T15:11:43.142000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:11:43.142000'
+'2021-05-26T15:14:39.049000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:13: cannot use call to function "Get_Line" as a statement
+
+    main.adb:40:13: return value of a function call cannot be ignored
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:14:39.049000'
+'2021-05-26T15:15:33.852000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:15:33.852000'
+'2021-05-26T15:16:29.940000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:20: expected an array type
+
+    main.adb:41:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:16:29.940000'
+'2021-05-26T15:17:25.386000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:20: array type required in indexed component
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:17:25.386000'
+'2021-05-26T15:17:42.899000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:20: expected an array type
+
+    main.adb:41:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:17:42.899000'
+'2021-05-26T15:18:17.896000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:8:28: incorrect constraint for this kind of type
+
+    main.adb:41:20: expected an array type
+
+    main.adb:41:20: found type "Standard.Integer"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:18:17.896000'
+'2021-05-26T15:19:13.832000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:20: array type required in indexed component
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:19:13.832000'
+'2021-05-26T15:19:27.885000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:19:27.885000'
+'2021-05-26T15:20:08.901000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:27: expected type "Standard.Integer"
+
+    main.adb:41:27: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:20:08.901000'
+'2021-05-26T15:21:55.489000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:21:55.489000'
+'2021-05-26T15:23:54.592000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:23:54.592000'
+'2021-05-26T15:24:53.812000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:24:53.812000'
+'2021-05-26T15:26:59.972000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:48: invalid operand types for operator "/="
+
+    main.adb:40:48: left operand has type "Standard.Integer"
+
+    main.adb:40:48: right operand has an access type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:26:59.972000'
+'2021-05-26T15:27:43.815000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:33: invalid operand types for operator "/="
+
+    main.adb:40:33: left operand has subtype of "Standard.String" defined at line
+    7
+
+    main.adb:40:33: right operand has an access type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:27:43.815000'
+'2021-05-26T15:28:26.744000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:28:26.744000'
+'2021-05-26T15:28:55.290000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:41:37: prefix of "Image" attribute must be a scalar type or a scalar
+    object name
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:28:55.290000'
+'2021-05-26T15:35:04.732000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:35:04.732000'
+'2021-05-26T15:36:40.159000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:36:40.159000'
+'2021-05-26T15:38:35.070000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:33: expected type "Standard.String"
+
+    main.adb:40:33: found type "Standard.Integer"
+
+    main.adb:41:20: expected type "Standard.Integer"
+
+    main.adb:41:20: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:38:35.070000'
+'2021-05-26T15:39:19.209000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:42:20: expected type "Standard.Integer"
+
+    main.adb:42:20: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:39:19.209000'
+'2021-05-26T15:39:38.445000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:39:38.445000'
+'2021-05-26T15:45:44.279000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:09: statement expected
+
+    main.adb:68:20: missing "is"
+
+    main.adb:72:01: "end FuelUp;" expected
+
+    main.adb:72:01: missing "begin" for procedure "Main" at line 4
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:45:44.279000'
+'2021-05-26T15:49:35.688000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:22: procedure or entry name expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T15:49:35.688000'
+'2021-05-26T16:03:42.930000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:40:51: missing ")"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:03:42.930000'
+'2021-05-26T16:04:03.784000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:04:03.784000'
+'2021-05-26T16:05:18.411000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    main.adb:8:04: warning: variable "FuelLast" is never read and never assigned
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:05:18.411000'
+'2021-05-26T16:05:35.403000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:05:35.403000'
+'2021-05-26T16:09:19.910000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:09:19.910000'
+'2021-05-26T16:11:08.125000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:11:08.125000'
+'2021-05-26T16:12:46.249000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:64: missing ")"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:12:46.249000'
+'2021-05-26T16:13:02.431000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:13:02.431000'
+'2021-05-26T16:20:39.016000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:20:39.016000'
+'2021-05-26T16:22:08.134000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:22:08.134000'
+'2021-05-26T16:23:16.022000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:39:48: missing operand
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:23:16.022000'
+'2021-05-26T16:26:19.896000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:26:19.896000'
+'2021-05-26T16:27:54.750000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:38:35: no candidate interpretations match the actuals:
+
+    main.adb:38:35: too many arguments in call to "Get_Line"
+
+    main.adb:38:35: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:27:54.750000'
+'2021-05-26T16:28:34.068000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:38:35: no candidate interpretations match the actuals:
+
+    main.adb:38:35: too many arguments in call to "Get_Line"
+
+    main.adb:38:35: missing argument for parameter "Last" in call to "Get_Line" declared
+    at a-textio.ads:481
+
+    main.adb:38:35: missing argument for parameter "Item" in call to "Get_Line" declared
+    at a-textio.ads:471
+
+    main.adb:38:44: expected private type "Ada.Text_Io.File_Type"
+
+    main.adb:38:44: found type "Standard.String"
+
+    main.adb:38:44:   ==> in call to "Get_Line" at a-textio.ads:492
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:28:34.068000'
+'2021-05-26T16:40:59.513000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:50:06: missing "end case;" for "case" at line 33
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:40:59.513000'
+'2021-05-26T16:41:30.905000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:41:30.905000'
+'2021-05-26T16:43:15.516000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-26T16:43:15.516000'

@@ -48,6 +48,17 @@ is
      and (P1.Altitude < LOWALTITUDE and P1.LandingGear = Down)),
      Post => MasterInvariant and TakeOffInvariant and (P1.Mode = TakingOff);
    
+   procedure EngineOnOff with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Fuel > FuelCapacity'First),
+     Post => MasterInvariant and (P1.Engine /= P1.Engine'Old);
+   
+   procedure SetFuel ( f : in FuelCapacity ) with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (((P1.Mode = Stationary) and (f > P1.Fuel)) 
+     and ((f > FuelCapacity'First) and (f <= FuelCapacity'Last))),
+     Post => MasterInvariant and (P1.Fuel > P1.Fuel'Old);
+   
    procedure IncreaseAltitude with
      Global => (In_Out => P1),
      Pre => MasterInvariant and (P1.Altitude < AltitudeRange'Last),

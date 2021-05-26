@@ -1,0 +1,1 @@
+main.adb:8:04: warning: variable "FuelLast" is never read and never assigned

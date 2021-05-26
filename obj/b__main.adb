@@ -36,11 +36,11 @@ package body ada_main is
    E006 : Short_Integer; pragma Import (Ada, E006, "ada__calendar__delays_E");
    E106 : Short_Integer; pragma Import (Ada, E106, "ada__real_time_E");
    E140 : Short_Integer; pragma Import (Ada, E140, "ada__text_io_E");
-   E193 : Short_Integer; pragma Import (Ada, E193, "system__tasking__initialization_E");
-   E203 : Short_Integer; pragma Import (Ada, E203, "system__tasking__protected_objects_E");
-   E205 : Short_Integer; pragma Import (Ada, E205, "system__tasking__protected_objects__entries_E");
-   E201 : Short_Integer; pragma Import (Ada, E201, "system__tasking__queuing_E");
-   E189 : Short_Integer; pragma Import (Ada, E189, "system__tasking__stages_E");
+   E195 : Short_Integer; pragma Import (Ada, E195, "system__tasking__initialization_E");
+   E205 : Short_Integer; pragma Import (Ada, E205, "system__tasking__protected_objects_E");
+   E207 : Short_Integer; pragma Import (Ada, E207, "system__tasking__protected_objects__entries_E");
+   E203 : Short_Integer; pragma Import (Ada, E203, "system__tasking__queuing_E");
+   E191 : Short_Integer; pragma Import (Ada, E191, "system__tasking__stages_E");
    E152 : Short_Integer; pragma Import (Ada, E152, "coursework_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
@@ -52,7 +52,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E205 := E205 - 1;
+      E207 := E207 - 1;
       declare
          procedure F1;
          pragma Import (Ada, F1, "system__tasking__protected_objects__entries__finalize_spec");
@@ -263,15 +263,15 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E140 := E140 + 1;
       System.Tasking.Initialization'Elab_Body;
-      E193 := E193 + 1;
+      E195 := E195 + 1;
       System.Tasking.Protected_Objects'Elab_Body;
-      E203 := E203 + 1;
-      System.Tasking.Protected_Objects.Entries'Elab_Spec;
       E205 := E205 + 1;
+      System.Tasking.Protected_Objects.Entries'Elab_Spec;
+      E207 := E207 + 1;
       System.Tasking.Queuing'Elab_Body;
-      E201 := E201 + 1;
+      E203 := E203 + 1;
       System.Tasking.Stages'Elab_Body;
-      E189 := E189 + 1;
+      E191 := E191 + 1;
       E152 := E152 + 1;
    end adainit;
 

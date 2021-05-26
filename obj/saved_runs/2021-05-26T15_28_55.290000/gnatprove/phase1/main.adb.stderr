@@ -1,0 +1,1 @@
+main.adb:41:37: prefix of "Image" attribute must be a scalar type or a scalar object name

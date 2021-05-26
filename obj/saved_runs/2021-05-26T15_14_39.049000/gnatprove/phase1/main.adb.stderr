@@ -1,0 +1,2 @@
+main.adb:40:13: cannot use call to function "Get_Line" as a statement
+main.adb:40:13: return value of a function call cannot be ignored

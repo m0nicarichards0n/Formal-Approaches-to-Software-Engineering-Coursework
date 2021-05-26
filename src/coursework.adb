@@ -17,6 +17,26 @@ is
       end if;
    end TakeOff;
    
+   procedure EngineOnOff is
+   begin
+      if (MasterInvariant and (P1.Fuel > FuelCapacity'First)) then
+         if (P1.Engine = On) then
+            P1.Engine := Off;
+         elsif (P1.Engine = Off) then
+            P1.Engine := On;
+         end if;
+      end if;
+   end EngineOnOff;
+   
+   procedure SetFuel ( f : in FuelCapacity ) is
+   begin
+      if (MasterInvariant 
+          and (((P1.Mode = Stationary) and (f > P1.Fuel)) 
+               and ((f > FuelCapacity'First) and (f <= FuelCapacity'Last))))
+      then P1.Fuel := f;
+      end if;
+   end SetFuel;
+   
    procedure IncreaseAltitude is
    begin
       if (MasterInvariant and P1.Altitude < AltitudeRange'Last) then
@@ -29,7 +49,6 @@ is
       if (MasterInvariant and P1.Fuel > FuelCapacity'First) then
          P1.Fuel := P1.Fuel -1;
       end if;
-   end BurnFuel;   
-   
+   end BurnFuel;
    
 end coursework;

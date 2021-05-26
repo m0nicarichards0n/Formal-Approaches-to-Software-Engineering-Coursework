@@ -1,0 +1,4 @@
+coursework.adb:47:24: loop or block statement must follow label
+coursework.adb:48:23: loop or block statement must follow label
+coursework.adb:49:23: loop or block statement must follow label
+coursework.adb:51:27: loop or block statement must follow label

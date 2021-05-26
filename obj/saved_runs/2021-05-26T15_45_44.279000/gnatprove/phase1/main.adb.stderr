@@ -1,0 +1,4 @@
+main.adb:40:09: statement expected
+main.adb:68:20: missing "is"
+main.adb:72:01: "end FuelUp;" expected
+main.adb:72:01: missing "begin" for procedure "Main" at line 4

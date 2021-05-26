@@ -1,0 +1,2 @@
+coursework.ads:60:48: attribute "old" can only appear in postcondition
+coursework.ads:60:59: ";" should be ","

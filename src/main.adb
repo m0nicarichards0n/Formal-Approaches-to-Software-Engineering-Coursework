@@ -12,17 +12,42 @@ procedure Main is
    task body ControlPanel is
    begin
       loop
-         if (P1.Mode = Stationary) then
-            Put_Line("------------------------------");
-            Put_Line("Boeing 737-800 Control Panel");
-            Put_Line("------------------------------");
-            Put_Line("(1) Take off");
+         Put_Line("------------------------------");
+         Put_Line("Boeing 737-800 Dashboard");
+         Put_Line("------------------------------");
+         Put_Line("Aircraft status: " & p1.Mode'Image);
+         Put_Line("Engine: " & p1.Engine'Image);
+         Put_Line("Fuel Level: " & p1.Fuel'Image & "L (26,020L Capacity)");
+         Put_Line("Altitude: " & p1.Altitude'Image & "ft (60,000ft Max)");
+         Put_Line("Cockpit door: " & p1.Cockpit'Image & " and " & P1.CockpitLock'Image);
+         Put_Line("External doors: " & p1.ExternalDoors'Image & " and " & P1.ExternalDoorLocks'Image);
+         Put_Line("Landing gear: " & p1.LandingGear'Image);
+         Put_Line("------------------------------");
+         Put_Line("Boeing 737-800 Control Panel");
+         Put_Line("------------------------------");
+         Put_Line("(1) Take off");
+         Put_Line("(2) Switch engine ON/OFF");
+         Put_Line("(3) Request fuel");
+
+         Get_Line(Str, Last);
+         case Str(1) is
+         when '1' => TakeOff;
+         when '2' => EngineOnOff;
+         when '3' => Put_Line("How much fuel would you like onboard?");
+            Put_Line("(1) 25%");
+            Put_Line("(2) 50%");
+            Put_Line("(3) 75%");
+            Put_Line("(4) 100%");
             Get_Line(Str, Last);
             case Str(1) is
-               when '1' => TakeOff;
-               when others => abort Climb; abort EngineRunning; exit;
+               when '1' => SetFuel((FuelCapacity'Last/100)*25);
+               when '2' => SetFuel((FuelCapacity'Last/100)*50);
+               when '3' => SetFuel((FuelCapacity'Last/100)*75);
+               when '4' => SetFuel(FuelCapacity'Last);
+               when others => exit;
             end case;
-         end if;
+         when others => abort Climb; abort EngineRunning; exit;
+         end case;
       end loop;
       delay 0.1;
    end ControlPanel;

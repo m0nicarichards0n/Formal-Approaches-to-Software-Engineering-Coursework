@@ -1,0 +1,6 @@
+main.adb:39:13: no candidate interpretations match the actuals:
+main.adb:39:13: too many arguments in call to "Get_Line"
+main.adb:39:13: missing argument for parameter "Last" in call to "Get_Line" declared at a-textio.ads:471
+main.adb:39:22: expected type "Standard.String"
+main.adb:39:22: found type "Standard.Integer"
+main.adb:39:22:   ==> in call to "Get_Line" at a-textio.ads:481

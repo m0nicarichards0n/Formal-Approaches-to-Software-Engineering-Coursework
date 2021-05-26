@@ -1,0 +1,7 @@
+main.adb:38:35: no candidate interpretations match the actuals:
+main.adb:38:35: too many arguments in call to "Get_Line"
+main.adb:38:35: missing argument for parameter "Last" in call to "Get_Line" declared at a-textio.ads:481
+main.adb:38:35: missing argument for parameter "Item" in call to "Get_Line" declared at a-textio.ads:471
+main.adb:38:44: expected private type "Ada.Text_Io.File_Type"
+main.adb:38:44: found type "Standard.String"
+main.adb:38:44:   ==> in call to "Get_Line" at a-textio.ads:492

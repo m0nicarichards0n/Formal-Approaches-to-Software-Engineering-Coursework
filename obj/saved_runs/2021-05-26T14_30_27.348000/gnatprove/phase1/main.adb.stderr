@@ -1,0 +1,2 @@
+main.adb:40:20: expected type "Standard.Integer"
+main.adb:40:20: found type "Standard.String"

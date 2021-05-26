@@ -1,0 +1,3 @@
+main.adb:38:35: no candidate interpretations match the actuals:
+main.adb:38:35: too many arguments in call to "Get_Line"
+main.adb:38:35: missing argument for parameter "Last" in call to "Get_Line" declared at a-textio.ads:471

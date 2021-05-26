@@ -1,0 +1,3 @@
+main.adb:8:28: incorrect constraint for this kind of type
+main.adb:41:20: expected an array type
+main.adb:41:20: found type "Standard.Integer"

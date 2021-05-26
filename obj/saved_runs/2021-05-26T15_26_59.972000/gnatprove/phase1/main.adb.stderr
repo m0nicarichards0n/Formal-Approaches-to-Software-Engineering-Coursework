@@ -1,0 +1,3 @@
+main.adb:40:48: invalid operand types for operator "/="
+main.adb:40:48: left operand has type "Standard.Integer"
+main.adb:40:48: right operand has an access type

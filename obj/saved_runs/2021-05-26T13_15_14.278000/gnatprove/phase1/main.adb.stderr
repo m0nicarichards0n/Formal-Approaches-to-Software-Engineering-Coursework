@@ -1,0 +1,2 @@
+main.adb:38:10: procedure or entry name expected
+main.adb:67:07: "ClearScreen" is undefined
