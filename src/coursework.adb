@@ -73,6 +73,42 @@ is
       end if;
    end UnlockCockpitDoor;
    
+   procedure OpenExternalDoors is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary)
+          and ((P1.ExternalDoors = Shut) and (P1.ExternalDoorLocks = Unlocked)))
+      then
+         P1.ExternalDoors := Open;
+      end if;
+   end OpenExternalDoors;
+   
+   procedure ShutExternalDoors is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary)
+          and ((P1.ExternalDoors = Open) and (P1.ExternalDoorLocks = Unlocked)))
+      then
+         P1.ExternalDoors := Shut;
+      end if;
+   end ShutExternalDoors;
+   
+   procedure LockExternalDoors is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary)
+          and ((P1.ExternalDoorLocks = Unlocked) and (P1.ExternalDoors = Shut)))
+      then
+         P1.ExternalDoorLocks := Locked;
+      end if;
+   end LockExternalDoors;
+   
+   procedure UnlockExternalDoors is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary) 
+          and ((P1.ExternalDoorLocks = Locked) and (P1.ExternalDoors = Shut)))
+      then
+         P1.ExternalDoorLocks := Unlocked;
+      end if;
+   end UnlockExternalDoors;
+   
    procedure IncreaseAltitude is
    begin
       if (MasterInvariant and P1.Altitude < AltitudeRange'Last) then
@@ -83,7 +119,7 @@ is
    procedure BurnFuel is
    begin
       if (MasterInvariant and P1.Fuel > FuelCapacity'First) then
-         P1.Fuel := P1.Fuel -1;
+         P1.Fuel := P1.Fuel - 1;
       end if;
    end BurnFuel;
    

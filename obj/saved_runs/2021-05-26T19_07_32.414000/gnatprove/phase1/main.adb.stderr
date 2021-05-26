@@ -1,0 +1,2 @@
+main.adb:47:89: expected type "Standard.String"
+main.adb:47:89: found type "Standard.Float"

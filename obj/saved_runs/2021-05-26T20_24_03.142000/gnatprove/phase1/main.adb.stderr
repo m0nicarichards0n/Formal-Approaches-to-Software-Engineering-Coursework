@@ -1,0 +1,23 @@
+main.adb:42:15: expected type "Standard.Integer"
+main.adb:42:15: found a character type
+main.adb:43:15: expected type "Standard.Integer"
+main.adb:43:15: found a string type
+main.adb:44:15: expected type "Standard.Integer"
+main.adb:44:15: found a string type
+main.adb:57:15: expected type "Standard.Integer"
+main.adb:57:15: found a string type
+main.adb:58:15: expected type "Standard.Integer"
+main.adb:58:15: found a string type
+main.adb:59:15: expected type "Standard.Integer"
+main.adb:59:15: found a string type
+main.adb:60:15: expected type "Standard.Integer"
+main.adb:60:15: found a string type
+main.adb:61:15: expected type "Standard.Integer"
+main.adb:61:15: found a string type
+main.adb:62:15: expected type "Standard.Integer"
+main.adb:62:15: found a string type
+main.adb:63:15: expected type "Standard.Integer"
+main.adb:63:15: found a string type
+main.adb:64:15: expected type "Standard.Integer"
+main.adb:64:15: found a string type
+compilation abandoned due to previous error

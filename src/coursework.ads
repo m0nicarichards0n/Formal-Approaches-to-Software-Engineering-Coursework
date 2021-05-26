@@ -6,8 +6,8 @@ is
    type OnOff is (On, Off);
    type UpDown is (Up, Down);
    type FlightMode is (Stationary, UnderTow, TakingOff, NormalFlight, Landing);
-   subtype FuelCapacity is Integer range 0..26020;
-   subtype AltitudeRange is Integer range 0..60000;
+   type FuelCapacity is range 0..26000;
+   type AltitudeRange is range 0..60000;
    
    type Plane is record
       Cockpit : OpenShut;
@@ -26,7 +26,7 @@ is
                   Mode => Stationary, Fuel => FuelCapacity'First, Engine => Off,
                   Altitude => AltitudeRange'First, LandingGear => Down);
    
-   MINFUEL : constant := 13010;
+   MINFUEL : constant := 13000;
    LOWALTITUDE : constant := 2000;
    
    function MasterInvariant return Boolean is
@@ -82,6 +82,30 @@ is
      Pre => MasterInvariant and (P1.Mode = Stationary) 
      and ((P1.CockpitLock = Locked) and (P1.Cockpit = Shut)),
      Post => MasterInvariant and (P1.CockpitLock = Unlocked);
+   
+   procedure OpenExternalDoors with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary) 
+     and ((P1.ExternalDoors = Shut) and (P1.ExternalDoorLocks = Unlocked)),
+     Post => MasterInvariant and (P1.ExternalDoors = Open);
+   
+   procedure ShutExternalDoors with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary)
+     and ((P1.ExternalDoors = Open) and (P1.ExternalDoorLocks = Unlocked)),
+     Post => MasterInvariant and (P1.ExternalDoors = Shut);
+   
+   procedure LockExternalDoors with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary) 
+     and ((P1.ExternalDoorLocks = Unlocked) and (P1.ExternalDoors = Shut)),
+     Post => MasterInvariant and (P1.ExternalDoorLocks = Locked);
+   
+   procedure UnlockExternalDoors with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = Stationary) 
+     and ((P1.ExternalDoorLocks = Locked) and (P1.ExternalDoors = Shut)),
+     Post => MasterInvariant and (P1.ExternalDoorLocks = Unlocked);
    
    procedure IncreaseAltitude with
      Global => (In_Out => P1),

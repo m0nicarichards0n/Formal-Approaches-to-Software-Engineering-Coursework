@@ -1,0 +1,3 @@
+main.adb:47:86: invalid operand types for operator "*"
+main.adb:47:86: left operand has type "FuelCapacity" defined at coursework.ads:9
+main.adb:47:86: right operand has type universal real

@@ -1,0 +1,3 @@
+coursework.ads:94:57: invalid operand types for operator "-"
+coursework.ads:94:57: left operand has type "FuelCapacity" defined at line 9
+coursework.ads:94:57: right operand has type universal integer

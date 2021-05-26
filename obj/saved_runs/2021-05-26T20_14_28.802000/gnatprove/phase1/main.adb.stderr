@@ -1,0 +1,10 @@
+main.adb:43:15: strings are delimited by double quote character
+main.adb:44:15: strings are delimited by double quote character
+main.adb:57:15: strings are delimited by double quote character
+main.adb:58:15: strings are delimited by double quote character
+main.adb:59:15: strings are delimited by double quote character
+main.adb:60:15: strings are delimited by double quote character
+main.adb:61:15: strings are delimited by double quote character
+main.adb:62:15: strings are delimited by double quote character
+main.adb:63:15: strings are delimited by double quote character
+main.adb:64:15: strings are delimited by double quote character

@@ -1,0 +1,2 @@
+main.adb:47:43: expected type "FuelCapacity" defined at coursework.ads:9
+main.adb:47:43: found type "Standard.Integer"

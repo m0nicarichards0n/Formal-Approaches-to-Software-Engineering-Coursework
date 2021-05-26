@@ -25,19 +25,23 @@ procedure Main is
          Put_Line("------------------------------");
          Put_Line("Boeing 737-800 Control Panel");
          Put_Line("------------------------------");
-         Put_Line("(1) Take off");
-         Put_Line("(2) Switch engine ON/OFF");
-         Put_Line("(3) Request fuel");
-         Put_Line("(4) OPEN Cockpit door");
-         Put_Line("(5) SHUT Cockpit door");
-         Put_Line("(6) LOCK Cockpit door");
-         Put_Line("(7) UNLOCK Cockpit door");
+         Put_Line("(a) - Take off");
+         Put_Line("(b) - Switch engine ON/OFF");
+         Put_Line("(c) - Request fuel");
+         Put_Line("(d) - OPEN Cockpit door");
+         Put_Line("(e) - SHUT Cockpit door");
+         Put_Line("(f) - LOCK Cockpit door");
+         Put_Line("(g) - UNLOCK Cockpit door");
+         Put_Line("(h) - OPEN External doors");
+         Put_Line("(i) - SHUT External doors");
+         Put_Line("(j) - LOCK External doors");
+         Put_Line("(k) - UNLOCK External doors");
 
          Get_Line(Str, Last);
-         case Str(1) is
-         when '1' => TakeOff;
-         when '2' => EngineOnOff;
-         when '3' => Put_Line("How much fuel would you like onboard?");
+         case (Str(1)) is
+         when 'a' => TakeOff;
+         when 'b' => EngineOnOff;
+         when 'c' => Put_Line("How much fuel would you like onboard? (26,000L Max Capacity)");
             Put_Line("(1) 25%");
             Put_Line("(2) 50%");
             Put_Line("(3) 75%");
@@ -48,12 +52,16 @@ procedure Main is
                when '2' => SetFuel((FuelCapacity'Last/100)*50);
                when '3' => SetFuel((FuelCapacity'Last/100)*75);
                when '4' => SetFuel(FuelCapacity'Last);
-               when others => exit;
+               when others => abort Climb; abort EngineRunning; exit;
             end case;
-         when '4' => OpenCockpitDoor;
-         when '5' => ShutCockpitDoor;
-         when '6' => LockCockpitDoor;
-         when '7' => UnlockCockpitDoor;
+         when 'd' => OpenCockpitDoor;
+         when 'e' => ShutCockpitDoor;
+         when 'f' => LockCockpitDoor;
+         when 'g' => UnlockCockpitDoor;
+         when 'h' => OpenExternalDoors;
+         when 'i' => ShutExternalDoors;
+         when 'j' => LockExternalDoors;
+         when 'k' => UnlockExternalDoors;
 
          when others => abort Climb; abort EngineRunning; exit;
          end case;

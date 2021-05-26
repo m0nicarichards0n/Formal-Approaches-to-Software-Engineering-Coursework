@@ -1,0 +1,17 @@
+main.adb:48:54: invalid operand types for operator "/"
+main.adb:48:54: left operand has type "Standard.Float"
+main.adb:48:54: right operand has type universal integer
+main.adb:49:54: invalid operand types for operator "/"
+main.adb:49:54: left operand has type "Standard.Float"
+main.adb:49:54: right operand has type universal integer
+coursework.ads:9:41: expected type "Standard.Float"
+coursework.ads:9:41: found type universal integer
+coursework.ads:38:17: invalid operand types for operator ">="
+coursework.ads:38:17: left operand has type "FuelCapacity" defined at line 9
+coursework.ads:38:17: right operand has type universal integer
+coursework.ads:47:20: invalid operand types for operator ">="
+coursework.ads:47:20: left operand has type "FuelCapacity" defined at line 9
+coursework.ads:47:20: right operand has type universal integer
+coursework.ads:94:57: invalid operand types for operator "-"
+coursework.ads:94:57: left operand has type "FuelCapacity" defined at line 9
+coursework.ads:94:57: right operand has type universal integer

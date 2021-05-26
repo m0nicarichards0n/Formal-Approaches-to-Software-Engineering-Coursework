@@ -1,0 +1,1 @@
+coursework.adb:88:29: medium: range check might fail (e.g. when P1 = (Cockpit => Shut, CockpitLock => Locked, ExternalDoors => Shut, ExternalDoorLocks => Locked, Mode => Stationary, Fuel => 9.9999619E-1, Engine => On, Altitude => 0, LandingGear => Up))[#0]

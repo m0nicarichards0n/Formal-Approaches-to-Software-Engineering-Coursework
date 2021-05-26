@@ -1,0 +1,3 @@
+coursework.adb:88:29: invalid operand types for operator "-"
+coursework.adb:88:29: left operand has type "FuelCapacity" defined at coursework.ads:9
+coursework.adb:88:29: right operand has type universal integer

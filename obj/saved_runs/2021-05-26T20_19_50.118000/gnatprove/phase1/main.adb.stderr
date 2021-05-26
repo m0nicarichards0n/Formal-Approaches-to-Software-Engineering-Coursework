@@ -1,0 +1,33 @@
+main.adb:41:21: too many subscripts in array reference
+main.adb:42:15: expected type "Standard.Character"
+main.adb:42:15: found a string type
+main.adb:43:15: expected type "Standard.Character"
+main.adb:43:15: found a string type
+main.adb:44:15: expected type "Standard.Character"
+main.adb:44:15: found a string type
+main.adb:57:15: expected type "Standard.Character"
+main.adb:57:15: found a string type
+main.adb:58:15: expected type "Standard.Character"
+main.adb:58:15: found a string type
+main.adb:59:15: expected type "Standard.Character"
+main.adb:59:15: found a string type
+main.adb:59:15: duplication of choice value: 'A' at line 43
+main.adb:59:15: duplication of choice value: 'A' at line 58
+main.adb:59:15: duplication of choice value: 'A' at line 44
+main.adb:59:15: duplication of choice value: 'A' at line 42
+main.adb:59:15: duplication of choice value: 'A' at line 57
+main.adb:60:15: expected type "Standard.Character"
+main.adb:60:15: found a string type
+main.adb:60:15: duplication of choice value: 'A' at line 59
+main.adb:61:15: expected type "Standard.Character"
+main.adb:61:15: found a string type
+main.adb:61:15: duplication of choice value: 'A' at line 59
+main.adb:62:15: expected type "Standard.Character"
+main.adb:62:15: found a string type
+main.adb:62:15: duplication of choice value: 'A' at line 59
+main.adb:63:15: expected type "Standard.Character"
+main.adb:63:15: found a string type
+main.adb:63:15: duplication of choice value: 'A' at line 59
+main.adb:64:15: expected type "Standard.Character"
+main.adb:64:15: found a string type
+main.adb:64:15: duplication of choice value: 'A' at line 59

@@ -1,0 +1,2 @@
+main.adb:47:51: expected type "FuelCapacity" defined at coursework.ads:9
+main.adb:47:51: found type universal real

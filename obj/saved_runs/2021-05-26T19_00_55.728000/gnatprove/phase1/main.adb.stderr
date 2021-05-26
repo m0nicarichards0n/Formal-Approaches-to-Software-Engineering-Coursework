@@ -1,0 +1,3 @@
+main.adb:47:72: invalid operand types for operator "*"
+main.adb:47:72: left operand has type "Standard.Float"
+main.adb:47:72: right operand has type universal integer
