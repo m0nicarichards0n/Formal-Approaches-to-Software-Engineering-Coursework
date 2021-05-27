@@ -23,6 +23,9 @@ is
           and (P1.Engine = Off) and (P1.Mode = Stationary)) 
       then
          P1.Engine := On;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end EngineOn;
    
@@ -32,6 +35,9 @@ is
           and ((P1.Mode = Stationary or P1.Mode = UnderTow)))
       then
          P1.Engine := Off;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end EngineOff;
    
@@ -124,6 +130,14 @@ is
       end if;
    end IncreaseAltitude;
    
+   procedure DecreaseAltitude is
+   begin
+      if (MasterInvariant and P1.Altitude > AltitudeRange'First)
+      then
+         P1.Altitude := P1.Altitude - 1;
+      end if;
+   end DecreaseAltitude;
+   
    procedure IncreaseAirspeed is
    begin
       if (MasterInvariant and (P1.Airspeed < Speed'Last)
@@ -133,11 +147,25 @@ is
       end if;
    end IncreaseAirspeed;
    
+   procedure DecreaseAirspeed is
+   begin
+      if (MasterInvariant and (P1.Airspeed > Speed'First)
+          and ((P1.Mode = NormalFlight) or (P1.Mode = Landing)))
+      then
+         P1.Airspeed := P1.Airspeed - 1;
+      end if;
+   end DecreaseAirspeed;
+   
    procedure BurnFuel is
    begin
       if (MasterInvariant and P1.Fuel > FuelCapacity'First) 
       then
          P1.Fuel := P1.Fuel - 1;
+         P1.LowfuelWarningLight := False;
+         if (P1.Fuel <= LOWFUEL)
+         then
+            P1.LowfuelWarningLight := True;
+         end if;
       end if;
    end BurnFuel;
    
@@ -150,14 +178,51 @@ is
       end if;
    end LiftLandingGear;
    
+   procedure LowerLandingGear is
+   begin
+      if (MasterInvariant and (P1.Mode = Landing)
+          and (P1.Altitude < LOWALTITUDE) and (P1.LandingGear = Up))
+      then
+         P1.LandingGear := Down;
+      end if;
+   end LowerLandingGear;
+   
    procedure InNormalFlight is
    begin
       if (MasterInvariant and (P1.Mode = TakingOff)
           and (P1.Altitude >= MEDALTITUDE) and (P1.Altitude < HIGHALTITUDE)
-          and (P1.Airspeed >= MINCRUISINGSPEED) and (P1.Airspeed < MAXCRUISINGSPEED))
+          and (P1.Airspeed >= MINCRUISINGSPEED) and (P1.Airspeed <= MAXCRUISINGSPEED))
       then
          P1.Mode := NormalFlight;
       end if;
    end InNormalFlight;
+   
+   procedure Land is
+   begin
+      if (MasterInvariant and (P1.Mode = NormalFlight))
+      then
+         P1.Mode := Landing;
+      end if;
+   end Land;
+   
+   procedure StopPlane is
+   begin
+      if (MasterInvariant and (P1.Mode = Landing)
+          and (P1.Altitude = AltitudeRange'First) and (P1.Airspeed = Speed'First))
+      then
+         P1.Mode := Stationary;
+      end if;
+   end StopPlane;
+   
+   procedure TowPlane is
+   begin
+      if (MasterInvariant and (P1.Mode = Stationary)
+          and (P1.Cockpit = Shut) and (P1.CockpitLock = Locked)
+          and (P1.ExternalDoors = Shut) and (P1.ExternalDoorLocks = Locked)
+          and (P1.Engine = Off))
+      then
+         P1.Mode := UnderTow;
+      end if;
+   end TowPlane;
    
 end coursework;

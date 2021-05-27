@@ -9,6 +9,7 @@
  <goal name="def&#39;vc" expl="VC for def" proved="true">
  <transf name="split_goal_wp_conj" proved="true" >
   <goal name="def&#39;vc.0" expl="precondition" proved="true">
+  <proof prover="0" obsolete="true"><result status="valid" steps="26"/></proof>
   <transf name="trivial_true" proved="true" >
   </transf>
   </goal>
@@ -17,7 +18,6 @@
   </transf>
   </goal>
   <goal name="def&#39;vc.2" expl="precondition" proved="true">
-  <proof prover="0" obsolete="true"><result status="valid" steps="26"/></proof>
   <transf name="trivial_true" proved="true" >
   </transf>
   </goal>
@@ -26,17 +26,17 @@
   </transf>
   </goal>
   <goal name="def&#39;vc.4" expl="precondition" proved="true">
-  <proof prover="0" obsolete="true"><result status="valid" steps="26"/></proof>
+  <proof prover="0" obsolete="true"><result status="valid" steps="47"/></proof>
   <transf name="trivial_true" proved="true" >
   </transf>
   </goal>
   <goal name="def&#39;vc.5" expl="postcondition" proved="true">
-  <proof prover="0" obsolete="true"><result status="valid" steps="48"/></proof>
+  <proof prover="0" obsolete="true"><result status="valid" steps="26"/></proof>
   <transf name="trivial_true" proved="true" >
   </transf>
   </goal>
   <goal name="def&#39;vc.6" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="47"/></proof>
+  <proof prover="0"><result status="valid" steps="70"/></proof>
   <transf name="trivial_true" proved="true" >
   </transf>
   </goal>

@@ -9,6 +9,8 @@ procedure Main is
    task Climb;
    task GainSpeed;
    task EngineRunning;
+   task Descend;
+   task SlowDown;
 
    procedure PrintDashboardControls is
    begin
@@ -23,6 +25,28 @@ procedure Main is
       Put_Line("Cockpit door: " & p1.Cockpit'Image & " and " & P1.CockpitLock'Image);
       Put_Line("External doors: " & p1.ExternalDoors'Image & " and " & P1.ExternalDoorLocks'Image);
       Put_Line("Landing gear: " & p1.LandingGear'Image);
+      if (p1.WarningLights) then
+         Put_Line("");
+         Put_Line(" * * * * * WARNING * * * * * ");
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+      elsif (p1.LowfuelWarningLight) then
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+         Put_Line(" * * * * * LOW FUEL * * * * * ");
+         Put_Line("");
+      else
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+         Put_Line("");
+      end if;
       Put_Line("------------------------------");
       Put_Line("Boeing 737-800 Control Panel");
       Put_Line("------------------------------");
@@ -38,6 +62,7 @@ procedure Main is
       Put_Line("(j) - SHUT External doors");
       Put_Line("(k) - LOCK External doors");
       Put_Line("(l) - UNLOCK External doors");
+      Put_Line("(m) - Land");
       Put_Line("");
       Put_Line("Enter command:");
    end PrintDashboardControls;
@@ -73,6 +98,7 @@ procedure Main is
          when 'j' => ShutExternalDoors;
          when 'k' => LockExternalDoors;
          when 'l' => UnlockExternalDoors;
+         when 'm' => Land;
          when others => abort Climb; abort EngineRunning; exit;
          end case;
       end loop;
@@ -92,7 +118,8 @@ procedure Main is
             IncreaseAltitude;
             LiftLandingGear;
          elsif (P1.Mode = TakingOff and P1.Altitude >= MEDALTITUDE
-               and P1.Altitude < HIGHALTITUDE)
+                and P1.Altitude < HIGHALTITUDE and P1.Airspeed >= MINCRUISINGSPEED
+                and P1.Airspeed <= MAXCRUISINGSPEED)
          then
             InNormalFlight;
          end if;
@@ -125,6 +152,36 @@ procedure Main is
          delay 1.0;
       end loop;
    end EngineRunning;
+
+   task body Descend is
+   begin
+      loop
+         if (P1.Mode = Landing and P1.Altitude > AltitudeRange'First)
+         then
+            DecreaseAltitude;
+            if (P1.Altitude < LOWALTITUDE)
+            then
+               LowerLandingGear;
+            end if;
+         elsif (P1.Mode = Landing and P1.Altitude = AltitudeRange'First
+                and P1.Airspeed = Speed'First)
+         then
+            StopPlane;
+         end if;
+         delay 0.01;
+      end loop;
+   end Descend;
+
+   task body SlowDown is
+   begin
+      loop
+         if (P1.Mode = Landing and P1.Airspeed > Speed'First)
+         then
+            DecreaseAirspeed;
+         end if;
+         delay 0.5;
+      end loop;
+   end SlowDown;
 
 begin
    null;
