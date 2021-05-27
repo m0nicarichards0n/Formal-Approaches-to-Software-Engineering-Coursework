@@ -7,6 +7,7 @@ procedure Main is
 
    task ControlPanel;
    task Climb;
+   task GainSpeed;
    task EngineRunning;
 
    procedure PrintDashboardControls is
@@ -16,6 +17,7 @@ procedure Main is
       Put_Line("------------------------------");
       Put_Line("Aircraft status: " & p1.Mode'Image);
       Put_Line("Engine: " & p1.Engine'Image);
+      Put_Line("Airspeed: " & p1.Airspeed'Image & "mph (550mph MAX)");
       Put_Line("Fuel Level: " & p1.Fuel'Image & "L (26,000L Capacity)");
       Put_Line("Altitude: " & p1.Altitude'Image & "ft (60,000ft Max)");
       Put_Line("Cockpit door: " & p1.Cockpit'Image & " and " & P1.CockpitLock'Image);
@@ -80,18 +82,37 @@ procedure Main is
    task body Climb is
    begin
       loop
-         if (P1.Mode = TakingOff and P1.Altitude < 2000)
+         if (P1.Mode = TakingOff and P1.Altitude < LOWALTITUDE
+            and P1.Airspeed >= TAKEOFFSPEED)
          then
             IncreaseAltitude;
-         elsif (P1.Mode = TakingOff and P1.Altitude >= 2000
-                and P1.Altitude < 30000)
+         elsif (P1.Mode = TakingOff and P1.Altitude >= LOWALTITUDE
+                and P1.Altitude < MEDALTITUDE)
          then
             IncreaseAltitude;
             LiftLandingGear;
+         elsif (P1.Mode = TakingOff and P1.Altitude >= MEDALTITUDE
+               and P1.Altitude < HIGHALTITUDE)
+         then
+            InNormalFlight;
          end if;
-         delay 0.1;
+         delay 0.01;
       end loop;
    end Climb;
+
+   task body GainSpeed is
+   begin
+      loop
+         if (P1.Engine = On and (P1.Mode = TakingOff or P1.Mode = NormalFlight))
+         then
+            if (P1.Airspeed < MAXCRUISINGSPEED)
+            then
+               IncreaseAirspeed;
+            end if;
+         end if;
+         delay 0.5;
+      end loop;
+   end GainSpeed;
 
    task body EngineRunning is
    begin

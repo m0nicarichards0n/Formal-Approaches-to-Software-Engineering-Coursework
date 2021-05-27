@@ -8,6 +8,7 @@ is
    type FlightMode is (Stationary, UnderTow, TakingOff, NormalFlight, Landing);
    type FuelCapacity is range 0..26000;
    type AltitudeRange is range 0..60000;
+   type Speed is range 0..550;
    
    type Plane is record
       Cockpit : OpenShut;
@@ -19,15 +20,22 @@ is
       Engine : OnOff;
       Altitude : AltitudeRange;
       LandingGear : UpDown;
+      Airspeed : Speed;
    end record;
    
    P1 : Plane := (Cockpit => Open, CockpitLock => Unlocked,
                   ExternalDoors => Open, ExternalDoorLocks => Unlocked,
                   Mode => Stationary, Fuel => FuelCapacity'First, Engine => Off,
-                  Altitude => AltitudeRange'First, LandingGear => Down);
+                  Altitude => AltitudeRange'First, LandingGear => Down, 
+                  Airspeed => Speed'First);
    
    MINFUEL : constant := 13000;
    LOWALTITUDE : constant := 2000;
+   MEDALTITUDE : constant := 10000;
+   HIGHALTITUDE : constant := 30000;
+   MINCRUISINGSPEED : constant := 400;
+   MAXCRUISINGSPEED : constant := 500;
+   TAKEOFFSPEED : constant := 150;
    
    function MasterInvariant return Boolean is
      (((P1.Cockpit = Shut and P1.CockpitLock = Locked)
@@ -119,6 +127,12 @@ is
      Pre => MasterInvariant and (P1.Altitude < AltitudeRange'Last),
      Post => MasterInvariant and (P1.Altitude = P1.Altitude'Old + 1);
    
+   procedure IncreaseAirspeed with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Airspeed < Speed'Last)
+     and ((P1.Mode = TakingOff) or (P1.Mode = NormalFlight)),
+     Post => MasterInvariant and (P1.Airspeed = P1.Airspeed'Old + 1);
+   
    procedure BurnFuel with
      Global => (In_out => P1),
      Pre => MasterInvariant and (P1.Fuel > FuelCapacity'First),
@@ -127,7 +141,14 @@ is
    procedure LiftLandingGear with
      Global => (In_Out => P1),
      Pre => MasterInvariant and (P1.Mode = TakingOff)
-     and (P1.Altitude >= 2000) and (P1.LandingGear = Down),
+     and (P1.Altitude >= LOWALTITUDE) and (P1.LandingGear = Down),
      Post => MasterInvariant and (P1.LandingGear = Up);
+   
+   procedure InNormalFlight with
+     Global => (In_Out => P1),
+     Pre => MasterInvariant and (P1.Mode = TakingOff)
+     and (P1.Altitude >= MEDALTITUDE) and (P1.Altitude < HIGHALTITUDE)
+     and (P1.Airspeed >= MINCRUISINGSPEED) and (P1.Airspeed < MAXCRUISINGSPEED),
+     Post => MasterInvariant and (P1.Mode = NormalFlight);
 
 end coursework;

@@ -4014,3 +4014,111 @@
     '
   output_parser: GNATprove_Parser
   timestamp: '2021-05-27T00:15:22.379000'
+'2021-05-27T00:56:46.405000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:131:70: declaration expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T00:56:46.405000'
+'2021-05-27T00:57:06.520000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    coursework.ads:26:18: no value supplied for component "Airspeed"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T00:57:06.520000'
+'2021-05-27T00:58:58.705000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:131:37: medium: range check might fail (e.g. when P1 = (Cockpit
+    => Shut, CockpitLock => Locked, ExternalDoors => Shut, ExternalDoorLocks => Locked,
+    Mode => UnderTow, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up, Airspeed
+    => Speed''Last))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T00:58:58.705000'
+'2021-05-27T01:02:09.108000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    coursework.adb:132:37: medium: range check might fail (e.g. when P1 = (Cockpit
+    => Shut, CockpitLock => Locked, ExternalDoors => Shut, ExternalDoorLocks => Locked,
+    Mode => TakingOff, Fuel => 0, Engine => On, Altitude => 0, LandingGear => Up,
+    Airspeed => Speed''Last))[#0]
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T01:02:09.108000'
+'2021-05-27T01:04:09.323000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T01:04:09.323000'
+'2021-05-27T01:17:23.349000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:100:14: missing specification for task body
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T01:17:23.349000'
+'2021-05-27T01:18:03.774000':
+  category: GNATprove
+  files:
+  - C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\MonicaRichardson\Documents\Uni\FASE\Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-27T01:18:03.774000'

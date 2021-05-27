@@ -124,6 +124,15 @@ is
       end if;
    end IncreaseAltitude;
    
+   procedure IncreaseAirspeed is
+   begin
+      if (MasterInvariant and (P1.Airspeed < Speed'Last)
+          and ((P1.Mode = TakingOff) or (P1.Mode = NormalFlight)))
+      then
+         P1.Airspeed := P1.Airspeed + 1;
+      end if;
+   end IncreaseAirspeed;
+   
    procedure BurnFuel is
    begin
       if (MasterInvariant and P1.Fuel > FuelCapacity'First) 
@@ -140,5 +149,15 @@ is
          P1.LandingGear := Up;
       end if;
    end LiftLandingGear;
+   
+   procedure InNormalFlight is
+   begin
+      if (MasterInvariant and (P1.Mode = TakingOff)
+          and (P1.Altitude >= MEDALTITUDE) and (P1.Altitude < HIGHALTITUDE)
+          and (P1.Airspeed >= MINCRUISINGSPEED) and (P1.Airspeed < MAXCRUISINGSPEED))
+      then
+         P1.Mode := NormalFlight;
+      end if;
+   end InNormalFlight;
    
 end coursework;
