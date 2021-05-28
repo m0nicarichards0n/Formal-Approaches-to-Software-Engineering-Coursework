@@ -19,7 +19,7 @@ procedure Main is
       Put_Line("------------------------------");
       Put_Line("Aircraft status: " & p1.Mode'Image);
       Put_Line("Engine: " & p1.Engine'Image);
-      Put_Line("Airspeed: " & p1.Airspeed'Image & "mph (550mph MAX)");
+      Put_Line("Airspeed: " & p1.Airspeed'Image & "mph (550mph Max)");
       Put_Line("Fuel Level: " & p1.Fuel'Image & "L (26,000L Capacity)");
       Put_Line("Altitude: " & p1.Altitude'Image & "ft (60,000ft Max)");
       Put_Line("Cockpit door: " & p1.Cockpit'Image & " and " & P1.CockpitLock'Image);
@@ -63,6 +63,7 @@ procedure Main is
       Put_Line("(k) - LOCK External doors");
       Put_Line("(l) - UNLOCK External doors");
       Put_Line("(m) - Land");
+      Put_Line("(n) - Request tow");
       Put_Line("");
       Put_Line("Enter command:");
    end PrintDashboardControls;
@@ -99,6 +100,7 @@ procedure Main is
          when 'k' => LockExternalDoors;
          when 'l' => UnlockExternalDoors;
          when 'm' => Land;
+         when 'n' => TowPlane;
          when others => abort Climb; abort EngineRunning; exit;
          end case;
       end loop;

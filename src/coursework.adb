@@ -14,6 +14,9 @@ is
                and (P1.Altitude < LOWALTITUDE and P1.LandingGear = Down))) 
       then
          P1.Mode := TakingOff;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end TakeOff;
    
@@ -56,6 +59,9 @@ is
           and ((P1.Cockpit = Shut) and (P1.CockpitLock = Unlocked))) 
       then
          P1.Cockpit := Open;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end OpenCockpitDoor;
    
@@ -65,6 +71,9 @@ is
           and ((P1.Cockpit = Open) and (P1.CockpitLock = Unlocked))) 
       then
          P1.Cockpit := Shut;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end ShutCockpitDoor;
    
@@ -74,6 +83,9 @@ is
           and ((P1.CockpitLock = Unlocked) and (P1.Cockpit = Shut)))
       then
          P1.CockpitLock := Locked;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end LockCockpitDoor;
    
@@ -83,6 +95,9 @@ is
           and ((P1.CockpitLock = Locked) and (P1.Cockpit = Shut)))
       then
          P1.CockpitLock := Unlocked;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end UnlockCockpitDoor;
    
@@ -92,6 +107,9 @@ is
           and ((P1.ExternalDoors = Shut) and (P1.ExternalDoorLocks = Unlocked)))
       then
          P1.ExternalDoors := Open;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end OpenExternalDoors;
    
@@ -101,6 +119,9 @@ is
           and ((P1.ExternalDoors = Open) and (P1.ExternalDoorLocks = Unlocked)))
       then
          P1.ExternalDoors := Shut;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end ShutExternalDoors;
    
@@ -110,6 +131,9 @@ is
           and ((P1.ExternalDoorLocks = Unlocked) and (P1.ExternalDoors = Shut)))
       then
          P1.ExternalDoorLocks := Locked;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end LockExternalDoors;
    
@@ -119,6 +143,9 @@ is
           and ((P1.ExternalDoorLocks = Locked) and (P1.ExternalDoors = Shut)))
       then
          P1.ExternalDoorLocks := Unlocked;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end UnlockExternalDoors;
    
@@ -172,7 +199,7 @@ is
    procedure LiftLandingGear is
    begin
       if (MasterInvariant and (P1.Mode = TakingOff) 
-          and (P1.Altitude >= 2000) and (P1.LandingGear = Down))
+          and (P1.Altitude >= LOWALTITUDE) and (P1.LandingGear = Down))
       then
          P1.LandingGear := Up;
       end if;
@@ -202,6 +229,9 @@ is
       if (MasterInvariant and (P1.Mode = NormalFlight))
       then
          P1.Mode := Landing;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end Land;
    
@@ -222,6 +252,9 @@ is
           and (P1.Engine = Off))
       then
          P1.Mode := UnderTow;
+         P1.WarningLights := False;
+      else
+         P1.WarningLights := True;
       end if;
    end TowPlane;
    
